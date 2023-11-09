@@ -34,23 +34,27 @@ export const statistics = [
 export const products = [
     {
         imgURL: skate4,
-        name: "Nike Air Jordan-01",
+        name: "DGK BubbleGum",
         price: "$200.20",
+        rating: "4.5",
     },
     {
         imgURL: skate5,
-        name: "Nike Air Jordan-10",
+        name: "DGK Holy Spirit",
         price: "$210.20",
+        rating: "3.5"
     },
     {
         imgURL: skate6,
-        name: "Nike Air Jordan-100",
+        name: "WMD Free Spirit",
         price: "$220.20",
+        rating: "3.5"
     },
     {
         imgURL: skate7,
-        name: "Nike Air Jordan-001",
+        name: "DGK Modern Grafitti",
         price: "$230.20",
+        rating: "4"
     },
 ];
 

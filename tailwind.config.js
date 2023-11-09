@@ -38,8 +38,8 @@ export default {
       screens: {
         "wide": "1440px",
         "xl": "1200px",
-       
-     
+        "mob": "480px",
+        
       }
     },
   },

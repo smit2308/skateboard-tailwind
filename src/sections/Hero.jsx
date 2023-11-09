@@ -8,11 +8,11 @@ const Hero = () => {
   return (
     <section
       id='home'
-      className= ' 1440 w-full flex xl:flex-row xl:px-28 flex-col justify-center align-center min-h-screen  max-container  bg-green-200'
+      className= ' 1440 w-full flex xl:flex-row xl:px-28 flex-col justify-center align-center min-h-screen  max-container '
       >
         <div className='relative xl:w-3/5 flex flex-col justify-center items-start max-sm:items-center w-full  max-xl:padding-x pt-28 z-10 '>
           <p className='text-x font-montserrat  text-gray-700'>Summer Collection</p>
-          <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold max-sm:text-center'>
+          <h1 className='mt-2 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold max-sm:text-center'>
             <span  className=' xl:whitespace-nowrap  pr-10'>The New Arrival</span>
             <br/>
             <span className='inline-block mt-3 bg-gradient-to-r from-pink-700 via-yellow-300 to-teal-400 text-transparent bg-clip-text'>Zumiez</span> Boards
@@ -33,12 +33,11 @@ const Hero = () => {
         </div>
 
 
-        <div className='relative flex-1 flex  justify-center z-10 items-center max-xl:hidden  bg-center'>
+        <div className='relative flex-1 flex  justify-center z-10 items-center max-xl:hidden   bg-center'>
         <img  src={HeaderImage} 
           alt='Board Collection'
-          width={160}
-          height={300}
-          className=' object-contain relative rotate-45 bg-slate-50 '/>
+
+          className='w-[160px] object-contain relative rotate-45 '/>
         </div>
 
         

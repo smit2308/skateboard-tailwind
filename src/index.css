@@ -26,9 +26,14 @@
 }
 
 @layer utilities {
-  .padding {
+  /* .padding {
     @apply max-sm:px-16 px-8 py-12;
+  } */
+
+  .padding {
+    @apply   py-12;
   }
+
 
   .padding-x {
     @apply sm:px-16 px-8;
