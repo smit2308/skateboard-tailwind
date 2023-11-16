@@ -4,6 +4,10 @@ import {CustomerReviews, Footer, Hero,
   Subscribe, SuperQuality} from "./sections"
 
 import Nav from "./components/Nav"
+import HomeBanner from "./sections/HomeBanner"
+import HomeBanner2 from "./sections/HomeBanner2"
+
+// import HomeBanner from "./sections/HomeBanner"
 
 
 const App = () => {
@@ -12,9 +16,18 @@ const App = () => {
   return (
     <main className="relative">
       <Nav />
-      <section className="xl-padding-1 padding-b">
-        <Hero/>
+
+      {/* <section className="xl-padding-5 padding-b pt-24">
+        <HomeBanner/>
+      </section> */}
+
+      <section className=" padding-b pt-24">
+        <HomeBanner2/>
       </section>
+
+      <section className="xl-padding-5 padding-b">
+        <Hero/>
+        </section>
 
       <section className="padding">
         <PopularProducts/>

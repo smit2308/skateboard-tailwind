@@ -14,12 +14,17 @@ export default {
       '2xl': ['24px', '29.26px'],
       '3xl': ['28px', '50px'],
       '4xl': ['48px', '58px'],
+      '5xl': ['64px', '78px'],
+      '6xl': ['72px', '88px'],
+      '7xl': ['80px', '98px'],
       '8xl': ['96px', '106px']
     },
     extend: {
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
+        sfpro:  ['SF Pro Text'],
+        helvetica: ['HelveticaNeue']
       },
       colors: {
         'primary': "#ECEEFF",

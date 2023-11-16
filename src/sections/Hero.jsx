@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section
       id='home'
-      className= ' 1440 w-full flex xl:flex-row xl:px-28 flex-col justify-center align-center min-h-screen  max-container '
+      className= ' w-full flex xl:flex-row xl:px-28 flex-col justify-center align-center min-h-screen  max-container '
       >
         <div className='relative xl:w-3/5 flex flex-col justify-center items-start max-sm:items-center w-full  max-xl:padding-x pt-28 z-10 '>
           <p className='text-x font-montserrat  text-gray-700'>Summer Collection</p>
