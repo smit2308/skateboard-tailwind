@@ -125,7 +125,7 @@
 
 .homebanner .right a:nth-of-type(1) {
    
-  position: active;
+ 
   z-index: 3;
   transition: 0.2s ease-in-out;
  

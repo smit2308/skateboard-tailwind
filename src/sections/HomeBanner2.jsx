@@ -33,13 +33,13 @@ const skate= {
 
 const HomeBanner2 = () => {
   return (
-    <div className='w-full flex xl:flex-row  flex-col justify-center  align-middle my-4 max-container bg-gray-100 rounded-3xl' >
+    <div className='w-full flex xl:flex-row py-20 px-12 flex-col justify-center  align-middle my-4 max-container bg-gray-100 rounded-3xl  '  >
 
-      <div className='relative xl:w-2/5 flex flex-col justify-center items-start max-sm:items-center w-full py-10 max-xl:padding-x  z-10 '>
-        <p className=' font-helvetica font-light text-4xl z-1 text-[#474747]'>DGK</p>   
-        <div className='font-helvetica text-7xl font-bold text-[#474747] leading-[80px]'>
+      <div className='relative xl:w-2/5 flex flex-col justify-center items-start max-sm:items-center w-full  max-xl:padding-x  z-10 '>
+        <p className=' font-helvetica font-light text-3xl z-1 text-[#474747] max-sm:text-center'>DGK</p>   
+        <div className='font-helvetica text-7xl font-bold text-[#474747] leading-[80px] max-sm:text-center'>
         <h1>New</h1>
-        <h1 className='text-rose-700'>Monogram</h1>
+        <h1 className='text-rose-700 '>Monogram</h1>
         <h1>Collection</h1>
         </div>
 
@@ -56,23 +56,23 @@ const HomeBanner2 = () => {
             
           </button>
 
-          <div className='flex justify-start items-start max-sm:justify-center flex-wrap w-full mt-20  gap-10 '>
+          <div className='flex justify-start items-start max-sm:justify-center flex-wrap w-full mt-16  gap-16 '>
             {statistics.map((statistic) => (
               <div key={statistic.label}>
-                <p className='font-montserrat font-bold text-xl  text-gray-700'>{statistic.value}</p>
-                <p className='font-montserrat  text-x text-gray-500'>{statistic.label}</p>
+                <p className='font-montserrat font-bold text-2xl  text-gray-700'>{statistic.value}</p>
+                <p className='font-montserrat  text-xl text-gray-500'>{statistic.label}</p>
               </div>
             ))}</div>
 
 
         </div>
 
-        <div className='flex flex-row justify-center align-middle'>
+        <div className='flex flex-row flex-start '>
         
 
-          <a><BannerCard className='' skate={skate} /></a>
-          <a><BannerCard className='' skate={skate2} /></a>
-          <a><BannerCard className='' skate={skate3} /></a>
+          <BannerCard className=' z-3  transition-all duration-[0.2s] ease-[ease-in-out] hover:relative  hover:z-3 ' skate={skate} />
+          <BannerCard className=' z-2 right-6 ' skate={skate2} />
+          <BannerCard className='z-1' skate={skate3} />
         
         </div>
        

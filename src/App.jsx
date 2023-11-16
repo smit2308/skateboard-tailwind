@@ -14,14 +14,14 @@ const App = () => {
 
 
   return (
-    <main className="relative">
+    <main className="relative object-cover">
       <Nav />
 
       {/* <section className="xl-padding-5 padding-b pt-24">
         <HomeBanner/>
       </section> */}
 
-      <section className=" padding-b pt-24">
+      <section className="px-10 pt-24">
         <HomeBanner2/>
       </section>
 
