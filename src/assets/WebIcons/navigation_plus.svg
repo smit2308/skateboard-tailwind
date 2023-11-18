@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Mercury Development http://mercdev.com -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 48 48">
+    <style>
+@keyframes a0_t { 0% { transform: translate(24px,24px) scale(0.7,1) translate(-18px,-2px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 33.3333% { transform: translate(24px,24px) scale(1,1) translate(-18px,-2px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(24px,24px) scale(0.7,1) translate(-18px,-2px); } }
+@keyframes a1_t { 0% { transform: translate(24px,24px) rotate(90deg) scale(0.7,1) translate(-18px,-2px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 33.3333% { transform: translate(24px,24px) rotate(90deg) scale(1,1) translate(-18px,-2px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(24px,24px) rotate(90deg) scale(0.7,1) translate(-18px,-2px); } }
+    </style>
+    <title>stat48_navigation_plus</title>
+    <desc>Created with Sketch.</desc>
+    <rect width="36" height="4" fill="#000000" rx="2.1" stroke="none" transform="translate(24,24) scale(0.7,1) translate(-18,-2)" style="animation: a0_t 1s linear infinite both;"/>
+    <rect width="36" height="4" fill="#000000" rx="2.1" stroke="none" transform="translate(24,24) rotate(90) scale(0.7,1) translate(-18,-2)" style="animation: a1_t 1s linear infinite both;"/>
+</svg>

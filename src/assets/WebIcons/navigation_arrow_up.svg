@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Mercury Development http://mercdev.com -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 48 48">
+    <style>
+@keyframes Combined-Shape_t { 0% { transform: translate(-0.000024px,7.8px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 33.3333% { transform: translate(-0.000024px,-6px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(-0.000024px,7.8px); } }
+    </style>
+    <title>stat48_navigation_arrow_up</title>
+    <desc>Created with Sketch.</desc>
+    <path id="Combined-Shape" d="M24,19.0698L36.5151,31.5849C37.3352,32.405,38.6648,32.405,39.4849,31.5849C40.305,30.7648,40.305,29.4352,39.4849,28.6151L25.4849,14.6151C25.0749,14.205,24.5375,14,24,14C23.4626,14,22.9252,14.205,22.5151,14.6151L8.5151,28.6151C7.695,29.4352,7.695,30.7648,8.5151,31.5849C9.3352,32.405,10.6648,32.405,11.4849,31.5849L24,19.0698L24,19.0698Z" transform="translate(24,30.9) translate(-24,-23.1)" style="animation: Combined-Shape_t 1s linear infinite both;"/>
+</svg>

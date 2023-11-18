@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Mercury Development http://mercdev.com -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 48 48">
+    <style>
+@keyframes Combined-Shape_t { 0% { transform: translate(24px,24px) scale(1,1) translate(-24px,-24px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 80% { transform: translate(24px,24px) scale(1,1) translate(-24px,-24px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 83.3333% { transform: translate(24px,24px) scale(0.95,0.95) translate(-24px,-24px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 86.6666% { transform: translate(24px,24px) scale(1,1) translate(-24px,-24px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(24px,24px) scale(1,1) translate(-24px,-24px); } }
+@keyframes a0_do { 0% { stroke-dashoffset: 2px; } 6.6667% { stroke-dashoffset: 0px; } 83.3333% { stroke-dashoffset: 0px; } 85% { stroke-dashoffset: 2px; } 100% { stroke-dashoffset: 2px; } }
+@keyframes a1_do { 0% { stroke-dashoffset: 12px; } 10% { stroke-dashoffset: 12px; } 26.6667% { stroke-dashoffset: 0px; } 83.3333% { stroke-dashoffset: 0px; } 85% { stroke-dashoffset: 12px; } 100% { stroke-dashoffset: 12px; } }
+@keyframes a2_do { 0% { stroke-dashoffset: 8px; } 26.6667% { stroke-dashoffset: 8px; } 38.3333% { stroke-dashoffset: 0px; } 83.3333% { stroke-dashoffset: 0px; } 85% { stroke-dashoffset: 8px; } 100% { stroke-dashoffset: 8px; } }
+    </style>
+    <title>B_element_docunemt</title>
+    <desc>Created with Sketch.</desc>
+    <path id="Combined-Shape" d="M14,4L28.8284,4L40,15.1716L40,38C40,41.3137,37.3137,44,34,44L14,44C10.6863,44,8,41.3137,8,38L8,10C8,6.68629,10.6863,4,14,4zM28,8.82843L27.1716,8L14,8C12.8954,8,12,8.89543,12,10L12,38C12,39.1046,12.8954,40,14,40L34,40C35.1046,40,36,39.1046,36,38L36,16.8284L35.1716,16L30,16C28.8954,16,28,15.1046,28,14L28,8.82843Z" transform="translate(24,24) translate(-24,-24)" style="animation: Combined-Shape_t 2s linear infinite both;"/>
+    <path d="M0,0L2,0" stroke="#000000" fill="none" stroke-linecap="round" stroke-width="4" stroke-linejoin="round" stroke-dasharray="2 2" stroke-dashoffset="2" transform="translate(16,16) translate(2,0)" style="animation: a0_do 2s linear infinite both;"/>
+    <path d="M0,0L12,0" stroke="#000000" fill="none" stroke-linecap="round" stroke-width="4" stroke-linejoin="round" stroke-dasharray="12 12" stroke-dashoffset="12" transform="translate(16,24) translate(2,0)" style="animation: a1_do 2s linear infinite both;"/>
+    <path d="M0,0L8,0" stroke="#000000" fill="none" stroke-linecap="round" stroke-width="4" stroke-linejoin="round" stroke-dasharray="8 8" stroke-dashoffset="8" transform="translate(16,32) translate(2,0)" style="animation: a2_do 2s linear infinite both;"/>
+</svg>

@@ -1,6 +1,20 @@
 // import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-//   import { header_img } from "../assets/images";
+import {    arrowRight,
+    cheveronRight,
+    chevronLeft,
+    copyrightSign,
+    facebook,
+    hamburger,
+    instagram,
+    support,
+    shieldTick,
+    star,
+    truckFast,
+    twitter } from "../assets/icons";
+    
 import {skate4, skate5, skate6, skate7, skate8 } from "../assets/images";
+
+import { monosvg, momo, pinkmono, monowheels } from "../assets/images";
 
 
 export const navLinks = [
@@ -8,6 +22,28 @@ export const navLinks = [
     { href: "#about-us", label: "About Us" },
     { href: "#products", label: "Products" },
     { href: "#contact-us", label: "Contact Us" },
+];
+
+export const bannerImages = [
+    {   imgURL: monosvg,
+        name: 'Baker Brand Logo Red',
+        price: '$120',
+        rating: '4.5',
+        },
+      
+        {
+            imgURL: pinkmono,
+          name: 'DGK Pink Monogram',
+          price: '$150',
+            rating: '4.5',
+          },
+      
+          {
+            imgURL: monowheels,
+            name: 'DGK Pink Monogram ',
+            price: '$50',
+            rating: '4.5',
+            },
 ];
 
 // export const shoes = [
@@ -26,9 +62,9 @@ export const navLinks = [
 // ];
 
 export const statistics = [
-    { value: '1k+', label: 'Brands' },
-    { value: '500+', label: 'Shops' },
-    { value: '250k+', label: 'Customers' },
+    { value: '4.75', label: 'Rating' },
+    { value: '5+', label: 'Colors' },
+    { value: '25k+', label: 'Sold' },
 ];
 
 export const products = [
@@ -58,23 +94,23 @@ export const products = [
     },
 ];
 
-// export const services = [
-//     {
-//         imgURL: truckFast,
-//         label: "Free shipping",
-//         subtext: "Enjoy seamless shopping with our complimentary shipping service."
-//     },
-//     {
-//         imgURL: shieldTick,
-//         label: "Secure Payment",
-//         subtext: "Experience worry-free transactions with our secure payment options."
-//     },
-//     {
-//         imgURL: support,
-//         label: "Love to help you",
-//         subtext: "Our dedicated team is here to assist you every step of the way."
-//     },
-// ];
+export const services = [
+    {
+        imgURL: truckFast,
+        label: "Free shipping",
+        subtext: "Enjoy seamless shopping with our complimentary shipping service."
+    },
+    {
+        imgURL: shieldTick,
+        label: "Secure Payment",
+        subtext: "Experience worry-free transactions with our secure payment options."
+    },
+    {
+        imgURL: support,
+        label: "Love to help you",
+        subtext: "Our dedicated team is here to assist you every step of the way."
+    },
+];
 
 // export const reviews = [
 //     {

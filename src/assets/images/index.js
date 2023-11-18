@@ -7,7 +7,11 @@
 
 // import footerLogo from './footer-logo.svg'
 import headerLogo from './header-logo.svg'
+import monosvg from './banner/Mono_svg.svg'
+import momo from './banner/momo.svg'
+import pinkmono from './banner/pink_monogram.webp'
 
+import monowheels from './banner/mono_wheels.webp'
 // import offer from './offer.svg'
 
 import skate4 from './skate4.webp'
@@ -15,6 +19,8 @@ import skate5 from './skate5.webp'
 import skate6 from './skate6.webp'
 import skate7 from './skate7.webp'
 import skate8 from './skate8.webp'
+
+
 
 // import thumbnailBackground from './thumbnail-background.svg'
 // import thumbnailShoe1 from './thumbnail-shoe1.svg'
@@ -39,6 +45,10 @@ export {
     skate7,
     skate8,
 
+    monosvg,
+    momo,
+    pinkmono,
+    monowheels,
     // thumbnailBackground,
     // thumbnailShoe1,
     // thumbnailShoe2,

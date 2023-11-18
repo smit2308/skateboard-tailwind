@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Mercury Development http://mercdev.com -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 48 48">
+    <style>
+@keyframes Combined-Shape_t { 0% { transform: translate(0px,-2px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 33.3333% { transform: translate(0px,2px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(0px,-2px); } }
+@keyframes a0_t { 0% { transform: translate(22px,6px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 33.3333% { transform: translate(22px,18px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(22px,6px); } }
+    </style>
+    <title>B_element_mouse</title>
+    <desc>Created with Sketch.</desc>
+    <path id="Combined-Shape" d="M24,2C31.732,2,38,8.26801,38,16L38,32C38,39.732,31.732,46,24,46C16.268,46,10,39.732,10,32L10,16C10,8.26801,16.268,2,24,2zM24,6C18.4772,6,14,10.4772,14,16L14,32C14,37.5228,18.4772,42,24,42C29.5228,42,34,37.5228,34,32L34,16C34,10.4772,29.5228,6,24,6z" transform="translate(24,22) translate(-24,-24)" style="animation: Combined-Shape_t 1s linear infinite both;"/>
+    <rect width="4" height="10" fill="#000000" rx="2" stroke="none" transform="translate(24,11) translate(-2,-5)" style="animation: a0_t 1s linear infinite both;"/>
+</svg>

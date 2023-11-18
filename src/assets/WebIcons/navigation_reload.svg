@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Mercury Development http://mercdev.com -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 48 48">
+    <style>
+@keyframes Combined-Shape_t { 0% { transform: translate(23.995825px,23.995888px) rotate(0deg) translate(-23.995825px,-23.995888px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 50% { transform: translate(23.995825px,23.995888px) rotate(360deg) translate(-23.995825px,-23.995888px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(23.995825px,23.995888px) rotate(360deg) translate(-23.995825px,-23.995888px); } }
+    </style>
+    <title>stat48_navigation_reload</title>
+    <desc>Created with Sketch.</desc>
+    <path id="Combined-Shape" d="M32.1158,15.1519L29.7508,16.4194C29.0693,16.7846,28.813,17.633,29.1784,18.3142C29.2946,18.5308,29.4658,18.713,29.6746,18.8424L37.566,23.733C38.2233,24.1404,39.0865,23.9379,39.494,23.281C39.6236,23.0722,39.6958,22.833,39.7035,22.5874L39.9951,13.3111C40.0194,12.5385,39.4125,11.8926,38.6396,11.8682C38.3939,11.8606,38.1505,11.9176,37.9338,12.0337L35.7974,13.1787C31.8128,8.84511,25.5766,6.88179,19.5385,8.63518C11.0511,11.0998,6.1696,19.9751,8.63543,28.4586C11.1012,36.942,19.9807,41.8213,28.4682,39.3566C31.6442,38.4343,34.3993,36.5854,36.4369,34.0685C37.1318,33.2102,36.999,31.9511,36.1401,31.2564C35.2814,30.5618,34.0218,30.6945,33.3268,31.553C31.7988,33.4402,29.7373,34.8237,27.3519,35.5164C20.9863,37.3649,14.3268,33.7055,12.4774,27.3429C10.628,20.9803,14.2891,14.3239,20.6547,12.4754C24.8282,11.2634,29.1281,12.419,32.1158,15.1519z" transform="translate(23.9958,23.9959) translate(-23.9958,-23.9959)" style="animation: Combined-Shape_t 2s linear infinite both;"/>
+</svg>

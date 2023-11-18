@@ -17,31 +17,31 @@ const App = () => {
     <main className="relative object-cover">
       <Nav />
 
-      {/* <section className="xl-padding-5 padding-b pt-24">
+      <section className="px-10 pt-24 max-mob:hidden">
         <HomeBanner/>
-      </section> */}
+      </section>
 
-      <section className="px-10 pt-24">
+      <section className="px-10 pt-24 mob:hidden">
         <HomeBanner2/>
       </section>
 
-      <section className="xl-padding-5 padding-b">
-        <Hero/>
-        </section>
-
-      <section className="padding">
+      <section className="xl-padding-5 padding-b pt-24" >
         <PopularProducts/>
       </section>
 
-      <section className="padding">
-        <SuperQuality/>
-      </section>
+      <section className="xl-padding-5 padding-b ">
+        <Hero/>
+        </section>
 
-      <section className="padding-x p-y-10">
+      {/* <section className="padding">
+        <SuperQuality/>
+      </section> */}
+
+      <section className="xl-padding-5  padding-x p-y-10">
         <Services/>
       </section>
 
-      <section className="padding">
+      <section className="xl-padding-5 mt-20  padding-x p-y-10">
         <SpecialOffer/>
       </section>
 

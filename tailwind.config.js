@@ -45,6 +45,26 @@ export default {
         "xl": "1200px",
         "mob": "480px",
         
+      },
+
+      animation: {
+        'fade-in-down': 'fade-in-down 0.5s ease-out',
+        'fade-in-up': 'fade-in-up 0.5s ease-out',
+        'gradient': 'gradient 15s ease infinite',
+      },
+
+      keyframes: {
+        'gradient': 
+        {
+          '0%': { 'background-position': '0% 50%'},
+
+          '50%': { 'background-position': '100% 50%'},
+
+          '100%': { 'background-position': '0% 50%'},
+          
+        }
+        
+        
       }
     },
   },

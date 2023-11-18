@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Mercury Development http://mercdev.com -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 48 48">
+    <style>
+@keyframes a0_o { 0% { opacity: 0; } 23.3333% { opacity: 0; } 25% { opacity: 1; } 100% { opacity: 1; } }
+@keyframes a1_o { 0% { opacity: 0; } 48.3333% { opacity: 0; } 50% { opacity: 1; } 100% { opacity: 1; } }
+@keyframes a2_o { 0% { opacity: 0; } 73.3333% { opacity: 0; } 75% { opacity: 1; } 100% { opacity: 1; } }
+    </style>
+    <title>stat48_element_battery</title>
+    <desc>Created with Sketch.</desc>
+    <path id="Combined-Shape" d="M18,6C18,3.79086,19.7909,2,22,2L26,2C28.2091,2,30,3.79086,30,6L32,6C35.3137,6,38,8.68629,38,12L38,38C38,41.3137,35.3137,44,32,44L16,44C12.6863,44,10,41.3137,10,38L10,12C10,8.68629,12.6863,6,16,6L18,6ZM16,10C14.8954,10,14,10.8954,14,12L14,38C14,39.1046,14.8954,40,16,40L32,40C33.1046,40,34,39.1046,34,38L34,12C34,10.8954,33.1046,10,32,10L16,10Z"/>
+    <rect width="12" height="6" fill="#000000" rx="0" stroke="none" fill-opacity="1" opacity="0" transform="translate(24,33) translate(-6,-3)" style="animation: a0_o 2s linear infinite both;"/>
+    <rect width="12" height="6" fill="#000000" rx="0" stroke="none" fill-opacity="1" opacity="0" transform="translate(24,25) translate(-6,-3)" style="animation: a1_o 2s linear infinite both;"/>
+    <rect width="12" height="6" fill="#000000" rx="0" stroke="none" fill-opacity="1" opacity="0" transform="translate(24,17) translate(-6,-3)" style="animation: a2_o 2s linear infinite both;"/>
+    <rect width="12" height="6" fill="#000000" rx="0" stroke="none" fill-opacity="1" opacity="0" transform="translate(24,17) translate(-6,-3)"/>
+</svg>

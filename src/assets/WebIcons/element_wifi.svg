@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Mercury Development http://mercdev.com -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 48 48">
+    <style>
+@keyframes a0_do { 0% { stroke-dashoffset: 0px; } 100% { stroke-dashoffset: -18.16px; } }
+@keyframes a1_do { 0% { stroke-dashoffset: -8px; } 100% { stroke-dashoffset: 22.83px; } }
+@keyframes a2_do { 0% { stroke-dashoffset: 45.38px; } 100% { stroke-dashoffset: 2px; } }
+    </style>
+    <title>stat48_element_wifi</title>
+    <desc>Created with Sketch.</desc>
+    <ellipse rx="4" ry="4" fill="#000000" stroke="none" transform="translate(24,36)"/>
+    <path fill="none" stroke="#000000" stroke-width="4" d="M-7.93095,-6.09181C-6.10274,-8.46841,-3.23024,-10,0,-10C3.23024,-10,6.10275,-8.4684,7.93097,-6.09178" fill-rule="nonzero" stroke-linecap="round" opacity="1" stroke-opacity="1" stroke-linejoin="round" stroke-dasharray="12 6.1600000000000001" stroke-dashoffset="0" transform="translate(24,36)" style="animation: a0_do 1s linear infinite both;"/>
+    <path fill="none" opacity="1" stroke="#000000" stroke-width="4" d="M-13.6641,-11.7176C-10.363,-15.5637,-5.46598,-18,0,-18C5.44368,-18,10.3229,-15.5835,13.6236,-11.7647" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="24 6.8300000000000001" stroke-dashoffset="-8" transform="translate(22.6002,35.6667) translate(1.39976,0.333291)" style="animation: a1_do 1s linear infinite both;"/>
+    <path fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M-19.3012,-17.4205C-14.5431,-22.689,-7.6582,-26,0,-26C7.63816,-26,14.507,-22.7063,19.2638,-17.4618" stroke-dasharray="37 6.3799999999999999" stroke-dashoffset="45.380000000000003" transform="translate(24.0259,36)" style="animation: a2_do 1s linear infinite both;"/>
+</svg>

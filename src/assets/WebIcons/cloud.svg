@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Mercury Development http://mercdev.com -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 48 48">
+    <style>
+@keyframes Combined-Shape-2_do { 0% { stroke-dashoffset: 0px; } 100% { stroke-dashoffset: -122px; } }
+@keyframes Combined-Shape-3_do { 0% { stroke-dashoffset: -113px; } 100% { stroke-dashoffset: -235px; } }
+    </style>
+    <title>stat24_cloud_disconnect copy</title>
+    <desc>Created with Sketch.</desc>
+    <path id="Combined-Shape-2" d="M39.9978,22.2515C43.4494,23.1388,46,26.2715,46,30C46,34.4183,42.4183,38,38,38L9.20001,38L9.20001,37.9605C5.15735,37.5591,2,34.1483,2,30C2,27.0033,3.64768,24.3914,6.08651,23.0209C6.02963,22.6891,6,22.348,6,22C6,18.6863,8.68629,16,12,16C12.4403,16,12.8696,16.0474,13.2829,16.1375C15.5011,11.3336,20.3613,8,26,8C33.732,8,40,14.268,40,22C40,22.084,39.9993,22.1678,39.9978,22.2515L39.9978,22.2515Z" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="106 16" stroke-dashoffset="0" stroke-miterlimit="1" style="animation: Combined-Shape-2_do 2s linear infinite both;"/>
+    <path id="Combined-Shape-3" d="M39.9978,22.2515C43.4494,23.1388,46,26.2715,46,30C46,34.4183,42.4183,38,38,38L9.20001,38L9.20001,37.9605C5.15735,37.5591,2,34.1483,2,30C2,27.0033,3.64768,24.3914,6.08651,23.0209C6.02963,22.6891,6,22.348,6,22C6,18.6863,8.68629,16,12,16C12.4403,16,12.8696,16.0474,13.2829,16.1375C15.5011,11.3336,20.3613,8,26,8C33.732,8,40,14.268,40,22C40,22.084,39.9993,22.1678,39.9978,22.2515L39.9978,22.2515Z" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 120" stroke-dashoffset="-113" stroke-miterlimit="1" style="animation: Combined-Shape-3_do 2s linear infinite both;"/>
+</svg>
