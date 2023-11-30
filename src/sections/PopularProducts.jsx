@@ -7,7 +7,7 @@ const PopularProducts = () => {
     <section className= ' max-container lg:px-20  px-10  '>
       <div className='flex flex-col justify-start gap-5 mb-10 max-sm:justify-center'>
         <h2 className='text-4xl font-palanquin font-bold max-sm:text-center'>
-           <span className='text-blue-600'> Popular </span> Products
+           <span className='text-rose-700'> Popular </span> Products
         </h2>
         <p className='lg:max-w-lg mt-2 font-montserrat text-slate-gray max-mob:text-sm max-sm:text-center text-xl'>
           Experience top-notch quality and style with our sought-after

@@ -11,7 +11,7 @@ import { arrowRight } from '../assets/icons'
 
 const SpecialOffer = () => {
   return (
-    <section className='flex justify-center '>
+    <section className='flex justify-center hover:scale-105 transition-all ease-in-out '>
     <div className=' lg:w-[900px]   lg:h-[500px] shadow-2xl rounded-3xl flex lg:flex-row flex-col overflow-clip  '>
 
       <div className=' bg-gray-100  flex overflow-hidden justify-center max-lg:h-[400px]'>

@@ -2,8 +2,8 @@
 // import bigShoe2 from './big-shoe2.png'
 // import bigShoe3 from './big-shoe3.png'
 
-// import customer1 from './customer1.jpeg'
-// import customer2 from './customer2.svg'
+import customer1 from './customer1.jpeg'
+import customer2 from './customer2.svg'
 
 // import footerLogo from './footer-logo.svg'
 import headerLogo from './header-logo.svg'
@@ -20,7 +20,7 @@ import skate6 from './skate6.webp'
 import skate7 from './skate7.webp'
 import skate8 from './skate8.webp'
 
-
+import tropical_bg from './banner/tropical_bg.jpg'
 
 // import thumbnailBackground from './thumbnail-background.svg'
 // import thumbnailShoe1 from './thumbnail-shoe1.svg'
@@ -32,8 +32,8 @@ export {
     // bigShoe2,
     // bigShoe3,
 
-    // customer1,
-    // customer2,
+    customer1,
+    customer2,
 
     // footerLogo,
     headerLogo,
@@ -49,6 +49,8 @@ export {
     momo,
     pinkmono,
     monowheels,
+
+    tropical_bg
     // thumbnailBackground,
     // thumbnailShoe1,
     // thumbnailShoe2,
