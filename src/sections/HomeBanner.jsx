@@ -11,7 +11,10 @@ import { arrowRight } from '../assets/icons'
 const HomeBanner2 = () => {
 //  mob:bg-gray-100
   return (
-    <div className='w-full flex lg:flex-row py-20 px-12 flex-col justify-center  align-middle my-10 max-mob:py-0 max-container  rounded-3xl lg:gap-0 gap-20 max-mob:gap-12 bg-[linear-gradient(-45deg,_#ee7752,_#e73c7e,_#23a6d5,_#23d5ab)] animate-[gradient_10s_ease_infinite] [background-size:400%_400%]'  >
+    <section id='home'
+    className=' flex max-container justify-center z-0  flex-start align-center '>
+    <div 
+       className='w-full relative flex  lg:flex-row py-20 px-12 flex-col justify-center  align-middle my-10 max-mob:py-0 max-container  rounded-3xl lg:gap-0 gap-20 max-mob:gap-12 bg-[linear-gradient(-45deg,_#ee7752,_#e73c7e,_#23a6d5,_#23d5ab)] animate-[gradient_10s_ease_infinite] [background-size:400%_400%]'  >
 
       <div className='relative xl:w-2/5 flex flex-col justify-center lg:items-start items-center w-full    z-10 gap-6'>
         <p className=' font-helvetica font-light text-3xl z-1 text-white text-center lg:text-start'>DGK</p>   
@@ -50,7 +53,7 @@ const HomeBanner2 = () => {
 
         </div>
 
-        <div className='flex flex-row justify-center  lg:flex-start transition-all duration-[0.3s] ease-[ease-in-out]'>
+        <div className='flex flex-row justify-center items-center lg:flex-start transition-all duration-[0.3s] ease-[ease-in-out]'>
         
      
         
@@ -70,7 +73,7 @@ const HomeBanner2 = () => {
 
     
 
-
+    </section>
     
   
   )

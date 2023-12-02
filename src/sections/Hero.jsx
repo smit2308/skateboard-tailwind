@@ -8,9 +8,9 @@ import { tropical_bg } from '../assets/images'
 const Hero = () => {
   return (
     <section
-      id='home'
+      id='about-us'
       className= ' w-full flex xl:flex-row xl:px-28 flex-col justify-center align-center min-h-screen  max-container  bg-cover'
-      style={{backgroundImage: `url(${tropical_bg})`}}
+      // style={{backgroundImage: `url(${tropical_bg})`}}
       >
         
         <div className='relative xl:w-3/5 flex flex-col justify-center items-start max-sm:items-center w-full  max-xl:padding-x pt-28 z-10 '>
@@ -26,7 +26,7 @@ const Hero = () => {
             label="Shop  Now"
             iconURL= {arrowRight}/>
 
-          <div className='flex justify-start items-start max-sm:justify-center flex-wrap w-full mt-20 mb-10 gap-16'>
+          <div className='flex justify-start items-start max-sm:justify-center flex-wrap w-full mt-20 mb-10 gap-16 '>
             {statistics.map((statistic) => (
               <div key={statistic.label}>
                 <p className='font-montserrat font-bold text-xl  text-gray-700'>{statistic.value}</p>

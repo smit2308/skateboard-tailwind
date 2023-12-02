@@ -4,7 +4,7 @@ import PopularProductsCard from '../components/PopularProductsCard'
 
 const PopularProducts = () => {
   return (
-    <section className= ' max-container lg:px-20  px-10  '>
+    <section className= ' max-container  px-10  '>
       <div className='flex flex-col justify-start gap-5 mb-10 max-sm:justify-center'>
         <h2 className='text-4xl font-palanquin font-bold max-sm:text-center'>
            <span className='text-rose-700'> Popular </span> Products
