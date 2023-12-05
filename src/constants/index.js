@@ -12,7 +12,7 @@ import {    arrowRight,
     truckFast,
     twitter } from "../assets/icons";
     
-import {skate4, skate5, skate6, skate7, skate8 } from "../assets/images";
+import {skate1, skate2, skate3,   skate4, skate5, skate6, skate7, skate8 , skate9, skate10,  skate11, skate12, skate13, skate14, skate15, skate16, skate17, skate19  } from "../assets/images";
 
 import { monosvg, momo, pinkmono, monowheels } from "../assets/images";
 
@@ -20,10 +20,10 @@ import { customer1, customer2 } from "../assets/images";
 
 
 export const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
-    { href: "#products", label: "Products" },
-    { href: "#contact-us", label: "Contact Us" },
+    { href: "#home", label: "Home", path: "/" },
+    { href: "#about-us", label: "About Us", path: "/sign-up" },
+    { href: "#products", label: "Products", path: "/products" },
+    { href: "#contact-us", label: "Contact Us", path: "/" },
 ];
 
 export const bannerImages = [
@@ -48,20 +48,7 @@ export const bannerImages = [
             },
 ];
 
-// export const shoes = [
-//     {
-//         thumbnail: thumbnailShoe1,
-//         header_img: Header_Cover,
-//     },
-//     // {
-//     //     thumbnail: thumbnailShoe2,
-//     //     bigShoe: bigShoe2,
-//     // },
-//     // {
-//     //     thumbnail: thumbnailShoe3,
-//     //     bigShoe: bigShoe3,
-//     // },
-// ];
+
 
 export const statistics = [
     { value: '4.75', label: 'Rating' },
@@ -70,28 +57,147 @@ export const statistics = [
 ];
 
 export const products = [
+    
+        {
+            imgURL: skate1,
+            name: "Baker Brand Logo Red",
+            price: 120.20,
+            rating: 3.2,
+        },
+        {
+            imgURL: skate2,
+            name: "DGK Pink Monogram",
+            price: 150.20,
+            rating: 2.7,
+        },
+        {
+            imgURL: skate3,
+            name: "DGK Pink Monogram",
+            price: 50.20,
+            rating: 4.1,
+        },
+        {
+            imgURL: skate4,
+            name: "DGK BubbleGum",
+            price: 200.20,
+            rating: 0.8,
+        },
+        {
+            imgURL: skate5,
+            name: "DGK Holy Spirit",
+            price: 210.20,
+            rating: 3.5
+        },
+        {
+            imgURL: skate6,
+            name: "WMD Free Spirit",
+            price: 220.20,
+            rating: 1.9
+        },
+        {
+            imgURL: skate7,
+            name: "DGK Modern Grafitti",
+            price: 230.20,
+            rating: 4.4
+        },
+        {
+            imgURL: skate8,
+            name: "DGK Pink Monogram",
+            price: 50.20,
+            rating: 2.3,
+        },
+        {
+            imgURL: skate9,
+            name: "Baker Brand Logo Red",
+            price: 120.20,
+            rating: 4.8,
+        },
+        {
+            imgURL: skate10,
+            name: "DGK Pink Monogram",
+            price: 150.20,
+            rating: 0.5,
+        },
+        {
+            imgURL: skate11,
+            name: "DGK Pink Monogram",
+            price: 50.20,
+            rating: 3.9,
+        },
+        {
+            imgURL: skate12,
+            name: "DGK BubbleGum",
+            price: 200.20,
+            rating: 2.1,
+        },
+        {
+            imgURL: skate13,
+            name: "DGK BubbleGum",
+            price: 200.20,
+            rating: 4.6,
+        },
+        {
+            imgURL: skate14,
+            name: "DGK BubbleGum",
+            price: 200.20,
+            rating: 1.2,
+        },
+        {
+            imgURL: skate15,
+            name: "DGK BubbleGum",
+            price: 200.20,
+            rating: 3.0,
+        },
+        {
+            imgURL: skate16,
+            name: "DGK BubbleGum",
+            price: 200.20,
+            rating: 0.9,
+        },
+        {
+            imgURL: skate17,
+            name: "DGK BubbleGum",
+            price: 200.20,
+            rating: 4.3,
+        },
+        {
+            imgURL: skate19,
+            name: "DGK BubbleGum",
+            price: 200.20,
+            rating: 2.5,
+        },
+    
+    
+
+
+    
+
+
+];
+
+export const popularproducts = [
     {
         imgURL: skate4,
         name: "DGK BubbleGum",
-        price: "$200.20",
+        price: "200.20",
         rating: "4.5",
     },
     {
         imgURL: skate5,
         name: "DGK Holy Spirit",
-        price: "$210.20",
+        price: "210.20",
         rating: "3.5"
     },
     {
         imgURL: skate6,
         name: "WMD Free Spirit",
-        price: "$220.20",
+        price: "220.20",
         rating: "3.5"
     },
     {
         imgURL: skate7,
         name: "DGK Modern Grafitti",
-        price: "$230.20",
+        price: "230.20",
         rating: "4"
     },
 ];

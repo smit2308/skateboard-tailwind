@@ -15,16 +15,15 @@ const Home = () => {
 
   return (
     
-    <main id="products"
-      className="relative object-cover">
-        {/* Home Page */}
-      {/* <Nav /> */}
+    <main id="home"
+      className="relative object-cover pt-24">
+ 
 
-      <section className="px-10 pt-24 max-mob:hidden">
+      <section className="px-10  max-mob:hidden ">
         <HomeBanner/>
       </section>
 
-      <section className="px-10 pt-24 mob:hidden">
+      <section className="px-10  mob:hidden">
         <HomeBanner2/>
       </section>
 

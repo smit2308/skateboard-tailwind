@@ -10,8 +10,11 @@ import shieldTick from './shield-tick.svg'
 import star from './star.svg'
 import truckFast from './truck-fast.svg'
 import twitter from './twitter.svg'
+import loader from './loader.svg'
+import sort from './sort.svg'
 
 export {
+    loader,
     arrowRight,
     cheveronRight,
     chevronLeft,
@@ -23,5 +26,7 @@ export {
     shieldTick,
     star,
     truckFast,
-    twitter
+    twitter,
+    sort
+    
 }

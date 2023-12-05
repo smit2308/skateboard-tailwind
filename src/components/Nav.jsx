@@ -4,10 +4,25 @@ import {hamburger} from '../assets/icons'
 import { navLinks } from '../constants'
 import Button from '../components/Button'
 import { arrowRight } from '../assets/icons'
+import { Link } from 'react-router-dom'
+
+import {Routes, Route, useNavigate} from 'react-router-dom';
+
+
 
 const Nav = () => {
+
+
+const navigate = useNavigate();
+
+const navigateTo= (page) => {
+  // 👇️ navigate to /contacts
+  navigate(page);
+};
+
+
   return (
-    <header className='padding-x py-8 absolute z-10 w-full xl:px-24'>
+    <header className='absolute padding-x py-8 z-10 w-full xl:px-24'>
       <nav className='flex justify-between items-center max-container'>
         <a href='/'>
           <img 
@@ -21,20 +36,26 @@ const Nav = () => {
         <ul className='flex-1 flex justify-center items-center gap-16 max-xl:hidden'>
           {navLinks.map((item)=>(
             <li key={item.label}>
-              <a 
-                href={item.href}
-                className='fonts-monsterrat leading-normal text-lg text-slate-gray hover:text-rose-600 hover:font-semibold'
+              <Link to={item.path}
+                
+                className='fonts-monsterrat leading-normal text-xl font-semibold text-gray-900 hover:text-rose-600 hover:font-semibold'
                 >
                   {item.label}
-                </a>
+                </Link>
             </li>
           )
           )}
         </ul>
         <div className="max-xl:hidden">
+          <Link to='/sign-up'>
         <Button 
+       
           label="Log In / Sign Up" 
-          iconURL= {arrowRight}/>   
+          iconURL= {null}
+            directTo={'/sign-up'}
+            />   
+
+          </Link>
          </div>           
                 
       

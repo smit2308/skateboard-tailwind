@@ -1,6 +1,6 @@
 import React from 'react'
-import { products } from '../constants'
-import PopularProductsCard from '../components/PopularProductsCard'
+import ProductCard from '../components/ProductCard'
+import {popularproducts} from '../constants'
 
 const PopularProducts = () => {
   return (
@@ -16,8 +16,8 @@ const PopularProducts = () => {
       </div>
 
       <div className=' grid lg:grid-cols-4 md:grid-cols-3  max-md:grid-cols-2 gap-4 mt-2 max-mob:gap-4 '  >
-        {products.map((products) => (
-          <PopularProductsCard key={products.name} {...products} />
+        {popularproducts.map((products) => (
+          <ProductCard key={products.name} {...products} />
         ))}
       </div> 
 

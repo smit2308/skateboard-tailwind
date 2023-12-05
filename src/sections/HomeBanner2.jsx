@@ -9,7 +9,7 @@ import { bannerImages } from '../constants'
 const HomeBanner2 = () => {
  
   return (
-    <div className='w-full flex lg:flex-row py-20 px-12 flex-col justify-center  align-middle my-10 max-mob:py-0 max-container mob:bg-gray-100 rounded-3xl lg:gap-0 gap-20 max-mob:gap-12 '  >
+    <div className='w-full flex lg:flex-row  px-12 py-10  flex-col justify-center  align-middle  max-container mob:bg-gray-100 rounded-3xl lg:gap-0 gap-20 max-mob:gap-12 '  >
 
       <div className='relative xl:w-2/5 flex flex-col justify-center lg:items-start items-center w-full    z-10 '>
         <p className=' font-helvetica font-light text-3xl z-1 text-[#474747] text-center lg:text-start'>DGK</p>   
