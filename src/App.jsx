@@ -6,6 +6,7 @@ import { SignupForm } from "./auth/forms/SignupForm"
 import {AuthLayout} from "./auth/AuthLayout"
 import RootLayout  from "./root/RootLayout"
 import Nav from "./components/Nav"
+import { Footer } from "./sections"
 
 
 // import HomeBanner from "./sections/HomeBanner"
@@ -38,6 +39,7 @@ const App = () => {
         </Routes>
 
         </div>
+        <Footer />
       
       </main>
         

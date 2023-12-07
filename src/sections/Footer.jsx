@@ -6,7 +6,7 @@ import { footerLinks } from '../constants'
 const Footer = () => {
   return (
     <section id='contact-us'
-      className='flex flex-col gap-20 items-center'>
+      className='flex flex-col gap-20 items-center bg-gray-900 pt-20 pb-10 padding-x border-none '>
       <div className='flex flex-col items-center '>
         <img className='bg-white' 
           src={headerLogo}
