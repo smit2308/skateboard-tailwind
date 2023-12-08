@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     
-    <main id="home"
+    <main 
       className="relative object-cover pt-24">
  
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from '../components/Nav'
-import { Home, Products } from './pages'
+import { Home, Products, AboutUs } from './pages'
 import { Outlet, Navigate } from 'react-router-dom'
 
 const RootLayout = () => {

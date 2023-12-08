@@ -1,18 +1,14 @@
-// import bigShoe1 from './big-shoe1.png'
-// import bigShoe2 from './big-shoe2.png'
-// import bigShoe3 from './big-shoe3.png'
+
 
 import customer1 from './customer1.jpeg'
 import customer2 from './customer2.svg'
 
-// import footerLogo from './footer-logo.svg'
 import headerLogo from './header-logo.svg'
 import monosvg from './banner/Mono_svg.svg'
 import momo from './banner/momo.svg'
 import pinkmono from './banner/pink_monogram.webp'
 
 import monowheels from './banner/mono_wheels.webp'
-// import offer from './offer.svg'
 
 import skate1 from './skate1.webp'
 import skate2 from './skate2.webp'
@@ -35,23 +31,21 @@ import skate17 from './skate17.webp'
 import skate19 from './skate19.webp'
 
 
+import about_us_banner from './banner/about_us_banner.jpg'
 
-
+import about_us_skate from './about_us_skate.png'
 
 import tropical_bg from './banner/tropical_bg.jpg'
 
 
 export {
-    // bigShoe1,
-    // bigShoe2,
-    // bigShoe3,
-
+    about_us_skate,
     customer1,
     customer2,
 
     // footerLogo,
     headerLogo,
-
+    about_us_banner,
     // offer,
     skate1,
     skate2,
