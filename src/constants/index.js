@@ -10,7 +10,12 @@ import {    arrowRight,
     shieldTick,
     star,
     truckFast,
-    twitter } from "../assets/icons";
+    twitter, 
+    InstagramColored,
+    LinkedinColored,
+    BehanceColored,
+    GithubColored,
+} from "../assets/icons";
     
 import {skate1, skate2, skate3,   skate4, skate5, skate6, skate7, skate8 , skate9, skate10,  skate11, skate12, skate13, skate14, skate15, skate16, skate17, skate19  } from "../assets/images";
 
@@ -290,4 +295,11 @@ export const socialMedia = [
     { src: facebook, alt: "facebook logo" },
     { src: twitter, alt: "twitter logo" },
     { src: instagram, alt: "instagram logo" },
+];
+
+export const socialMediaColored = [
+    { src: InstagramColored, alt: "Instagram logo" },
+    { src: LinkedinColored, alt: "Linkedin logo" },
+    { src: BehanceColored, alt: "Behance logo" },
+    { src: GithubColored, alt: "Github logo" },
 ];

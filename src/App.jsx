@@ -19,7 +19,7 @@ const App = () => {
       <main className="flex flex-col ">
         <Nav />
 
-        <div>
+        <div className="mb-10"> 
         <Routes>
 
           

@@ -55,7 +55,7 @@ const Home = () => {
         <Subscribe/>
       </section>
 
-      <section className="bg-gray-900 padding-x pt-[800px] pb-8 z-0 -mt-[800px] -mb-1  " >
+      <section className="bg-gray-900 padding-x pt-[800px] pb-8 z-0 -mt-[800px] -mb-[100px]  " >
         
       </section>
 

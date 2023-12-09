@@ -12,6 +12,10 @@ import truckFast from './truck-fast.svg'
 import twitter from './twitter.svg'
 import loader from './loader.svg'
 import sort from './sort.svg'
+import InstagramColored from './SocialMedia/instagram.svg'
+import BehanceColored from './SocialMedia/Behance.svg'
+import GithubColored from './SocialMedia/Github.svg'
+import LinkedinColored from './SocialMedia/Linkedin.svg'
 
 export {
     loader,
@@ -27,6 +31,10 @@ export {
     star,
     truckFast,
     twitter,
-    sort
+    sort,
+    InstagramColored,
+    BehanceColored,
+    GithubColored,
+    LinkedinColored,
     
 }

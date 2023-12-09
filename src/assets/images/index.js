@@ -37,12 +37,15 @@ import about_us_skate from './about_us_skate.png'
 
 import tropical_bg from './banner/tropical_bg.jpg'
 
+import SmitPicture from './SmitPicture.jpg'
+import SmitPicture2 from './SmitPicture2.png'
 
 export {
     about_us_skate,
     customer1,
     customer2,
-
+    SmitPicture,
+    SmitPicture2,
     // footerLogo,
     headerLogo,
     about_us_banner,
