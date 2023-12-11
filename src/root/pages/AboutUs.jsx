@@ -7,12 +7,14 @@ import { socialMediaColored } from '../../constants'
 
 const AboutUs = () => {
   return (
-        <div className='mt-24 w-max-container items-center flex flex-col gap-20 mb-20 max-mob:p-6 p-10 overflow-hidden'>
+        <div className='mt-24 w-max-container items-center flex flex-col gap-40 mb-10 max-mob:p-6 p-10  overflow-hidden'>
 
     <div className='w-full object-cover flex flex-1 items-center justify-center '>
-      <img src={about_us_banner} 
+<a href='https://twitter.com/zumiez/header_photo'  target='_blank' rel='noreferrer'>
+<img src={about_us_banner} 
       width={1000}
       alt='about us banner' />
+</a>
     </div>
     <h1 className='md:text-8xl text-6xl font-palanquin font-bold text-gray-900 text-center'>Our Story
     
@@ -55,7 +57,7 @@ const AboutUs = () => {
         
   
         {/* <div className='flex justify-end   '> */}
-      <div className='flex flex-col  gap-10  z-30 '> 
+      <div className='flex flex-col  gap-10  z-30 pb-10'> 
 <div className='flex md:flex-row flex-col   justify-between md:items-end items-center gap-2'>
 <img src={SmitPicture}  className=' w-[160px] h-[160px]   rounded-full'   alt='skateboarder' /> 
 <h1 className='md:text-4xl text-3xl md:text-right text-center font-palanquin  text-gray-800 bg-white rounded-xl  '>
@@ -77,17 +79,20 @@ const AboutUs = () => {
         
         <div className='flex gap-6 justify-center items-center md:justify-end '>
           {socialMediaColored.map((logo, index) => ( 
-            <img src={logo.src} width={60} className='bg-white rounded-lg shadow-xl max-mob:w-12' />
-           
+            <a href={logo.link} target='_blank' rel='noreferrer' key={index} className='object-cover'>
+            <img src={logo.src}  width={60} className='bg-white rounded-lg shadow-xl max-mob:w-12 hover:scale-105 hover:shadow-2xl transition-all ease-in-out' />
+           </a>
           ))}
           </div>  
       </div>
 
 
-      <video autoPlay muted loop className=' w-[400px] rounded-[60px] shadow-xl border-8 border-seperate  '  type='video/mp4'   >
+            <a href='https://www.instagram.com/reel/CtdNv-ksLau/?utm_source=ig_web_copy_link&igshid=NTYzOWQzNmJjMA==' target='_blank' rel='noreferrer' >
+            <video  autoPlay muted loop className=' w-[380px] rounded-[60px] shadow-xl border-8 border-seperate hover:scale-105 hover:shadow-2xl transition-all ease-in-out'  type='video/mp4'   >
         <source src={aboutVideo} />
         Your Browser doesnt support the video tag
         </video>
+        </a>
       {/* <img src={SmitPicture}  className='  w-[300px] h-[500px] z-0 -ml-80'   alt='skateboarder' /> */}
       
       

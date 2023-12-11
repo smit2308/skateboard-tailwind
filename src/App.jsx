@@ -1,6 +1,6 @@
 import React from "react"
 import {Routes, Route} from "react-router-dom"
-import {Home, Products, AboutUs} from "./root/pages"
+import {Home, Products, AboutUs, ProductDetails} from "./root/pages"
 import { SigninForm } from "./auth/forms/SigninForm"
 import { SignupForm } from "./auth/forms/SignupForm"
 import {AuthLayout} from "./auth/AuthLayout"
@@ -35,6 +35,9 @@ const App = () => {
             <Route index element={<Home />} />
             <Route path="/products" element={<Products />} />
             <Route path="/about-us" element={<AboutUs />} />
+            <Route path="/products/:state" element={<ProductDetails />} />
+ 
+            
           </Route>
 
         </Routes>

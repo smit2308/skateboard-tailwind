@@ -85,7 +85,7 @@ export const products = [
             imgURL: skate4,
             name: "DGK Kiasma Pink",
             price: 200.20,
-            rating: 0.8,
+            rating: 1,
         },
         {
             imgURL: skate5,
@@ -121,7 +121,7 @@ export const products = [
             imgURL: skate10,
             name: "DGK Bubblegum Green",
             price: 150.20,
-            rating: 0.5,
+            rating: 1,
         },
         {
             imgURL: skate11,
@@ -157,7 +157,7 @@ export const products = [
             imgURL: skate16,
             name: "Element Bruce Lee Blue",
             price: 200.20,
-            rating: 0.9,
+            rating: 1,
         },
         {
             imgURL: skate17,
@@ -298,8 +298,8 @@ export const socialMedia = [
 ];
 
 export const socialMediaColored = [
-    { src: InstagramColored, alt: "Instagram logo" },
-    { src: LinkedinColored, alt: "Linkedin logo" },
-    { src: BehanceColored, alt: "Behance logo" },
-    { src: GithubColored, alt: "Github logo" },
+    { src: InstagramColored, alt: "Instagram logo", link: "https://www.instagram.com/smitzlean/" },
+    { src: LinkedinColored, alt: "Linkedin logo", link: "https://www.linkedin.com/in/smit-shewale/"  },
+    { src: BehanceColored, alt: "Behance logo", link: "https://www.behance.net/smitzzzy2308"  },
+    { src: GithubColored, alt: "Github logo", link: "https://github.com/smit2308"  },
 ];
