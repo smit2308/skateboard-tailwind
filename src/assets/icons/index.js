@@ -16,7 +16,7 @@ import InstagramColored from './SocialMedia/instagram.svg'
 import BehanceColored from './SocialMedia/Behance.svg'
 import GithubColored from './SocialMedia/Github.svg'
 import LinkedinColored from './SocialMedia/Linkedin.svg'
-
+import cart from './cart.svg'
 export {
     loader,
     arrowRight,
@@ -36,5 +36,6 @@ export {
     BehanceColored,
     GithubColored,
     LinkedinColored,
+    cart,
     
 }

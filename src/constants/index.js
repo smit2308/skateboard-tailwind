@@ -28,7 +28,7 @@ export const navLinks = [
     { href: "#home", label: "Home", path: "/" },
     { href: "#about-us", label: "About Us", path: "/about-us" },
     { href: "#products", label: "Products", path: "/products" },
-    { href: "#contact-us", label: "Contact Us", path: "/" },
+    { href: "#contact-us", label: "Contact Us", path: "/contact-us" },
 ];
 
 export const bannerImages = [
@@ -285,7 +285,7 @@ export const footerLinks = [
     {
         title: "Contact",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
+            { name: "customer@zumiez.com", link: "mailto:customer@zumiez.com" },
             { name: "+92554862354", link: "tel:+92554862354" },
         ],
     },

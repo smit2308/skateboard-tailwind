@@ -1,39 +1,44 @@
 import React from 'react'
 import {Routes, Route, useNavigate} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 
 
-
-const Button = ({label, iconURL, bgColor, textColor, borderColor, fullWidth, directTo,...buttonProps}) => {
+const Button = ({label, iconURL, bgColor, textColor, borderColor, fullWidth, width, iconWidth, iconHeight,...buttonProps}) => {
 
 
 
   return (
+    
     <button 
-      className={`flex justify-center items-center px-7 py-4  font-montserrat 
-                text-lg leading-none hover:scale-105 transition-all ease-in-out rounded-full max-lg:text-sm max-lg:px-4 max-lg:py-4
+      className={`flex gap-2 justify-center items-center px-7 py-4  font-montserrat shadow-xl
+                text-lg leading-none hover:scale-105 hover:shadow-2xl transition-all ease-in-out rounded-full max-lg:text-sm max-lg:px-4 max-lg:py-4
                 ${
                   bgColor ? `${bgColor} $
                   ${textColor ? textColor : "text-black"}`
                   :
                   " bg-gray-900  text-white border-gray-900"
                 }
-                ${fullWidth && 'w-full'}"}`}
+                ${fullWidth && 'w-full'}"}
+                
+                ${width && `w-${width}`}`
+                }
                 
                 {...buttonProps}>
         {label}
 
-        {iconURL ? (        
+        {iconURL ? (  
+             
           <img 
             src={iconURL}
-            width={24}
-            height={24}
+            width={iconWidth ? iconWidth : 24}
+            height={iconHeight}
             alt='arrow right icon'
-            className='ml-2 ' />):("")}
-
-    
+            className='fill-red-600 ' />
+           ):("")}
     </button>
+    
   )
 }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import {headerLogo} from '../assets/images'
-import {hamburger} from '../assets/icons'
+import {hamburger, cart} from '../assets/icons'
 import { navLinks } from '../constants'
 import Button from '../components/Button'
 import { arrowRight } from '../assets/icons'
@@ -33,12 +33,13 @@ const navigateTo= (page) => {
             />
         </a>
         
-        <ul className='flex-1 flex justify-center items-center gap-16 max-xl:hidden'>
+       <div>
+       <ul className='flex-1 flex justify-center items-center gap-14 max-xl:hidden '>
           {navLinks.map((item)=>(
             <li key={item.label}>
               <Link to={item.path}
                 
-                className='fonts-monsterrat leading-normal text-xl font-semibold text-gray-900 hover:text-rose-600 hover:font-semibold'
+                className='fonts-monsterrat leading-normal text-xl  text-gray-900 hover:text-rose-600 '
                 >
                   {item.label}
                 </Link>
@@ -46,7 +47,8 @@ const navigateTo= (page) => {
           )
           )}
         </ul>
-        <div className="max-xl:hidden">
+       </div>
+        <div className="max-xl:hidden flex flex-row gap-10">
           <Link to='/sign-up'>
         <Button 
        
@@ -56,6 +58,18 @@ const navigateTo= (page) => {
             />   
 
           </Link>
+
+          <Link to='/cart' >
+            <Button 
+              label="Cart" 
+              iconURL= {cart}
+              bgColor={'bg-white'}
+              width={'w-full'}
+              // iconWidth={28}
+              // iconHeight={28}
+              />
+          </Link>
+       
          </div>           
                 
       
@@ -66,6 +80,8 @@ const navigateTo= (page) => {
             width={25}
             height={25} />
         </div>
+
+
       </nav>
     </header>
   )
