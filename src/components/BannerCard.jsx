@@ -1,20 +1,20 @@
 import React from "react"
 import BlankPoster from  '../assets/images/blank_poster.png'
 import { Link } from "react-router-dom"
-import { data } from "autoprefixer"
 
 const BannerCard=({skate}) => {
-
-  // data = {
-  //   imgURL:skate.imgURL,
-  //   name:skate.name,
-  //   price:skate.price,
-  //   rating:skate.rating
-  // }
     
+  const data = {
+    imgURL:skate.imgURL,
+    name:skate.name,
+    price:skate.price,
+    rating: skate.rating,
+  
+  }
+  
     return(
-      <Link   to={`/products/${skate.name}`} state={{skate}}> 
-        <div className='w-[200px] h-[400px] max-sm:w-[140px] max-sm:h-[300px] xl:w-60 xl:h-[500px]  overflow-hidden bg-neutral-100  transition-all duration-[0.1s] ease-[ease-in-out] shadow-lg
+      <Link to={`/products/${data.name}`} state={{data}}> 
+      <div className='w-[200px] h-[400px] max-sm:w-[140px] max-sm:h-[300px] xl:w-60 xl:h-[500px]  overflow-hidden bg-neutral-100  transition-all duration-[0.1s] ease-[ease-in-out] shadow-lg
         p-4 rounded-[30px]  hover:shadow-2xl hover:scale-105  '>
 
                 <div className="relative flex flex-col items-end gap-2">
@@ -22,7 +22,7 @@ const BannerCard=({skate}) => {
                   {skate.name}
                 </p> 
                 <h2 className="font-montserrat text-right text-2xl max-sm:text-sm max-xl:text-lg font-semibold text-rose-600 ">
-                    {skate.price}
+                    $ {skate.price}
                 </h2>
                 </div>
    

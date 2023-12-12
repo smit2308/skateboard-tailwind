@@ -34,22 +34,22 @@ export const navLinks = [
 export const bannerImages = [
     {   imgURL: monosvg,
         name: 'Baker Brand Logo Red',
-        price: '$120',
-        rating: '4.5',
+        price: 120,
+        rating: 4.5,
         },
       
         {
             imgURL: pinkmono,
           name: 'DGK Pink Monogram',
-          price: '$150',
-            rating: '4.5',
+          price: 150,
+            rating: 4.5,
           },
       
           {
             imgURL: monowheels,
             name: 'DGK Pink Monogram ',
-            price: '$50',
-            rating: '4.5',
+            price: 50,
+            rating: 4.5,
             },
 ];
 

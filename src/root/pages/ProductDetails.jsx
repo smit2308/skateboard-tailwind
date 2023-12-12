@@ -55,7 +55,7 @@ const ProductDetails = (props) => {
 
           <h1 className='text-2xl max-lg:text-lg font-montserrat font-bold   text-black'>{data.rating}</h1>
         </div>
-        <div className='flex flex-row gap-2  justify-between '>
+        <div className='flex flex-row gap-10 '>
 
           <p className='text-rose-700 font-montserrat text-3xl max-lg:text-2xl font-bold '>
             $ {data.price}
@@ -114,7 +114,7 @@ const ProductDetails = (props) => {
       </div>
 
       <div className='flex mob:flex-row gap-10 flex-col max-lg:max-w-sm max-sm:gap-6 items-center' >
-        <div className='overflow-hidden w-[300px] h-[600px] max-lg:w-[230px] max-lg:h-[460px]  bg-red-200 flex flex-1 rounded-[40px] border border-1 border-slate-200 shadow-2xl
+        <div className='overflow-hidden w-[300px] h-[600px] max-lg:w-[230px] max-lg:h-[460px]  flex flex-1 rounded-[40px] border border-1 border-slate-200 shadow-2xl
                       max-sm:w-[300px] max-sm:h-[300px] max-mob:w-[280px] max-mob:h-[280px] max-mob:shadow-md'>
           <img src={data.imgURL} width={300} className='  object-cover ' />
         </div>

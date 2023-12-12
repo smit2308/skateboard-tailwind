@@ -31,7 +31,7 @@ const Home = () => {
         <PopularProducts/>
       </section>
 
-      <section className="xl-padding-5 padding-b ">
+      <section className="xl-padding-5  ">
         <Hero/>
         </section>
 

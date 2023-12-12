@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section
       id='about-us'
-      className= ' w-full flex xl:flex-row xl:px-28 flex-col justify-center align-center min-h-screen  max-container  bg-cover'
+      className= ' w-full flex xl:flex-row xl:px-28 flex-col justify-center align-center  max-container  bg-cover'
       // style={{backgroundImage: `url(${tropical_bg})`}}
       >
         

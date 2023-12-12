@@ -15,7 +15,7 @@ const data = {
 
   return (
     // className='w-fit flex flex-col gap-4 mt-16 m-5 px-3 py-4 bg-white shadow-xl rounded-xl border-t-2 border-s-2 '
-    <Link   to={`/products/${name}`} state={{data}}
+    <Link   to={`/products/${data.name}`} state={{data}}
         className=' flex flex-col gap-2 mx-auto   '>
         <div className="group flex rounded-3xl justify-center text-center relative overflow-hidden cursor-pointer">
         <img className='w-[220px] h-[280px]  object-cover max-sm:w-[196px] max-sm:h-[252px] max-mob:w-[140px] 
