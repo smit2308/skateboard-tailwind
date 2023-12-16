@@ -17,6 +17,8 @@ import BehanceColored from './SocialMedia/Behance.svg'
 import GithubColored from './SocialMedia/Github.svg'
 import LinkedinColored from './SocialMedia/Linkedin.svg'
 import cart from './cart.svg'
+import plusBlack from './plus-black.png'
+import minusBlack from './minus-black.png'
 export {
     loader,
     arrowRight,
@@ -37,5 +39,6 @@ export {
     GithubColored,
     LinkedinColored,
     cart,
-    
+    plusBlack,
+    minusBlack,
 }

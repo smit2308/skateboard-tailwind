@@ -4,7 +4,7 @@ import { star } from '../assets/icons'
 const ReviewCard = ({imgURL, customerName, rating, feedback}) => {
   return (
     <div key={customerName} className=' flex-1 flex-col  sm:w-[350px] min-w-[300px] w-full 
-    rounded-3xl shadow-3xl px-10 py-10 hover:scale-105 transition-all ease-in-out bg-white  '>
+    rounded-3xl shadow-3xl px-10 py-10  bg-white  '>
 
     <div className='flex flex-row items-center gap-2 mb-8'>
     <img src={imgURL} 

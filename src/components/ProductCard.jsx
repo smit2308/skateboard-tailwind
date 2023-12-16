@@ -3,9 +3,10 @@ import { star } from '../assets/icons'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
-const ProductCard  = ({imgURL, name, price, rating}) => {
+const ProductCard  = ({id,imgURL, name, price, rating}) => {
 
 const data = {
+  key:imgURL,
   imgURL:imgURL,
   name:name,
   price:price,

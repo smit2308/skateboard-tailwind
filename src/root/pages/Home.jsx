@@ -19,7 +19,7 @@ const Home = () => {
       className="relative object-cover pt-24">
  
 
-      <section className="px-10  max-mob:hidden ">
+      <section className="px-10  max-mob:hidden xl-padding-5   ">
         <HomeBanner/>
       </section>
 
@@ -27,7 +27,7 @@ const Home = () => {
         <HomeBanner2/>
       </section>
 
-      <section className="xl-padding-5 padding-b pt-24" >
+      <section className=" pt-24" >
         <PopularProducts/>
       </section>
 

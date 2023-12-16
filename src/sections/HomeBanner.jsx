@@ -9,10 +9,11 @@ import Button from '../components/Button'
 import { arrowRight } from '../assets/icons'
 
 const HomeBanner2 = () => {
+
 //  mob:bg-gray-100
   return (
     <section id='home'
-    className=' flex max-container justify-center z-0  flex-start align-center '>
+    className=' w-full flex xl:flex-row xl:px-10 flex-col justify-center align-center  max-container '>
     <div 
        className='w-full relative flex  lg:flex-row py-20 px-12 flex-col justify-center  align-middle my-10 max-mob:py-0 max-container  rounded-3xl lg:gap-0 gap-20 max-mob:gap-12 bg-[linear-gradient(-45deg,_#ee7752,_#e73c7e,_#23a6d5,_#23d5ab)] animate-[gradient_10s_ease_infinite] [background-size:400%_400%]'  >
 
@@ -59,6 +60,7 @@ const HomeBanner2 = () => {
         
         
           <a className=' z-30   hover:relative  hover:z-3 -mr-2'>
+            
           <BannerCard  skate={bannerImages[0]} />  </a>
 
           <a className=' z-10 -ml-16 max-sm:-ml-12 hover:relative hover:left-6 hover:bottom-2 hover:z-2  hover:rotate-6 transition-all duration-[0.3s] ease-[ease-in-out]'

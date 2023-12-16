@@ -4,7 +4,7 @@ import ReviewCard from '../components/ReviewCard'
 
 const CustomerReviews = () => {
   return (
-    <section className='flex flex-col gap-4  flex-wrap  py-20 max-container' >
+    <section className='flex flex-col gap-4  flex-wrap  py-20 max-container justify-center   w-full   xl:px-10   align-center  max-container' >
       <h3 className='font-palanquin text-4xl font-bold text-center text-gray-700 m-auto'>
         What Our 
         <span className='text-rose-700'> Customers </span>

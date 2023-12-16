@@ -6,7 +6,7 @@ const Subscribe = () => {
   return (
     <section className='flex justify-center items-center flex-col gap-10 '
     id='Contact-us'>
-      <h3 className='font-palanquin font-semibold text-4xl text-white'>Sign Up for
+      <h3 className='font-palanquin font-semibold text-4xl text-white max-sm:text-center'>Sign Up for
         <span className='text-rose-600'> Updates </span>
         & Newsletter
       </h3>
@@ -18,6 +18,7 @@ const Subscribe = () => {
 
         <div className='flex max-sm justify-end items-center max-sm w-full max-sm:justify-center'>
           <Button label="Sign Up"
+          bgColor={'bg-white'}
           iconURL={arrowRight}
           fullWidth/>
         </div>

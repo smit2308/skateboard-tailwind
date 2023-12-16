@@ -48,7 +48,7 @@ const navigateTo= (page) => {
           )}
         </ul>
        </div>
-        <div className="max-xl:hidden flex flex-row gap-10">
+        <div className="max-xl:hidden flex flex-row gap-6">
           <Link to='/sign-up'>
         <Button 
        

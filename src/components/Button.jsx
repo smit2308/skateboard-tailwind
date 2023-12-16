@@ -5,15 +5,15 @@ import { Link } from 'react-router-dom';
 
 
 
-const Button = ({label, iconURL, bgColor, textColor, borderColor, fullWidth, width, iconWidth, iconHeight,...buttonProps}) => {
+const Button = ({onClick, label, iconURL, bgColor, textColor, borderColor, fullWidth, width, iconWidth, iconHeight,...buttonProps}) => {
 
 
 
   return (
     
     <button 
-      className={`flex gap-2 justify-center items-center px-7 py-4  font-montserrat shadow-xl
-                text-lg leading-none hover:scale-105 hover:shadow-2xl transition-all ease-in-out rounded-full max-lg:text-sm max-lg:px-4 max-lg:py-4
+      className={`flex min-w-40 gap-2 justify-center items-center px-7 py-4  font-montserrat font-medium border shadow-lg 
+                text-lg leading-none hover:scale-105 hover:shadow-xl transition-all ease-in-out rounded-full max-lg:text-sm max-lg:px-4 max-lg:py-4
                 ${
                   bgColor ? `${bgColor} $
                   ${textColor ? textColor : "text-black"}`
@@ -22,10 +22,12 @@ const Button = ({label, iconURL, bgColor, textColor, borderColor, fullWidth, wid
                 }
                 ${fullWidth && 'w-full'}"}
                 
-                ${width && `w-${width}`}`
+                ${width? `w-${width}`: 'min-w-[300px]'}'}}`
                 }
                 
-                {...buttonProps}>
+                {...buttonProps}
+                
+                onClick={buttonProps.onClick}>
         {label}
 
         {iconURL ? (  
@@ -37,6 +39,8 @@ const Button = ({label, iconURL, bgColor, textColor, borderColor, fullWidth, wid
             alt='arrow right icon'
             className='fill-red-600 ' />
            ):("")}
+
+           
     </button>
     
   )

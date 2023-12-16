@@ -32,7 +32,8 @@ export const navLinks = [
 ];
 
 export const bannerImages = [
-    {   imgURL: monosvg,
+    {   
+        imgURL: monosvg,
         name: 'Baker Brand Logo Red',
         price: 120,
         rating: 4.5,
@@ -62,122 +63,153 @@ export const statistics = [
 ];
 
 export const products = [
-    
-        {
-            imgURL: skate1,
-            name: "DGK Symphony Green",
-            price: 120.20,
-            rating: 3.2,
-        },
-        {
-            imgURL: skate2,
-            name: "Baker Starlight Blue",
-            price: 150.20,
-            rating: 2.7,
-        },
-        {
-            imgURL: skate3,
-            name: "Baker Starlight LE Blue",
-            price: 50.20,
-            rating: 4.1,
-        },
-        {
-            imgURL: skate4,
-            name: "DGK Kiasma Pink",
-            price: 200.20,
-            rating: 1,
-        },
-        {
-            imgURL: skate5,
-            name: "DGK Holy Spirit Black",
-            price: 210.20,
-            rating: 3.5
-        },
-        {
-            imgURL: skate6,
-            name: "Element Grafitti white",
-            price: 220.20,
-            rating: 1.9
-        },
-        {
-            imgURL: skate7,
-            name: "DGK Modern Grafitti White",
-            price: 230.20,
-            rating: 4.4
-        },
-        {
-            imgURL: skate8,
-            name: "DGK Cartoon White",
-            price: 50.20,
-            rating: 2.3,
-        },
-        {
-            imgURL: skate9,
-            name: "Baker Holy Spirit Red",
-            price: 120.20,
-            rating: 4.8,
-        },
-        {
-            imgURL: skate10,
-            name: "DGK Bubblegum Green",
-            price: 150.20,
-            rating: 1,
-        },
-        {
-            imgURL: skate11,
-            name: "Baker Jason Green",
-            price: 50.20,
-            rating: 3.9,
-        },
-        {
-            imgURL: skate12,
-            name: "DGK Rocket Yellow",
-            price: 200.20,
-            rating: 2.1,
-        },
-        {
-            imgURL: skate13,
-            name: "DGK BubbleGum Green",
-            price: 200.20,
-            rating: 4.6,
-        },
-        {
-            imgURL: skate14,
-            name: "DGK Modern Grafitti Blue",
-            price: 200.20,
-            rating: 1.2,
-        },
-        {
-            imgURL: skate15,
-            name: "Element Anime Red",
-            price: 200.20,
-            rating: 3.0,
-        },
-        {
-            imgURL: skate16,
-            name: "Element Bruce Lee Blue",
-            price: 200.20,
-            rating: 1,
-        },
-        {
-            imgURL: skate17,
-            name: "DGK Candy White",
-            price: 200.20,
-            rating: 4.3,
-        },
-        {
-            imgURL: skate19,
-            name: "DGK M&M Yellow",
-            price: 200.20,
-            rating: 2.5,
-        },
-    
-    
-
-
-    
-
-
+    {   
+        id: 1,
+        imgURL: monosvg,
+        name: 'Baker Brand Logo Red',
+        price: 120,
+        rating: 4.5,
+    },
+    {
+        id: 2,
+        imgURL: pinkmono,
+        name: 'DGK Pink Monogram',
+        price: 150,
+        rating: 4.5,
+    },
+    {
+        id: 3,
+        imgURL: monowheels,
+        name: 'DGK Pink Monogram',
+        price: 50,
+        rating: 4.5,
+    },
+    {
+        id: 4,
+        imgURL: skate1,
+        name: "DGK Symphony Green",
+        price: 120.20,
+        rating: 3.2,
+    },
+    {
+        id: 5,
+        imgURL: skate2,
+        name: "Baker Starlight Blue",
+        price: 150.20,
+        rating: 2.7,
+    },
+    {
+        id: 6,
+        imgURL: skate3,
+        name: "Baker Starlight LE Blue",
+        price: 50.20,
+        rating: 4.1,
+    },
+    {
+        id: 7,
+        imgURL: skate4,
+        name: "DGK Kiasma Pink",
+        price: 200.20,
+        rating: 1,
+    },
+    {
+        id: 8,
+        imgURL: skate5,
+        name: "DGK Holy Spirit Black",
+        price: 210.20,
+        rating: 3.5,
+    },
+    {
+        id: 9,
+        imgURL: skate6,
+        name: "Element Grafitti white",
+        price: 220.20,
+        rating: 1.9,
+    },
+    {
+        id: 10,
+        imgURL: skate7,
+        name: "DGK Modern Grafitti White",
+        price: 230.20,
+        rating: 4.4,
+    },
+    {
+        id: 11,
+        imgURL: skate8,
+        name: "DGK Cartoon White",
+        price: 50.20,
+        rating: 2.3,
+    },
+    {
+        id: 12,
+        imgURL: skate9,
+        name: "Baker Holy Spirit Red",
+        price: 120.20,
+        rating: 4.8,
+    },
+    {
+        id: 13,
+        imgURL: skate10,
+        name: "DGK Bubblegum Green",
+        price: 150.20,
+        rating: 1,
+    },
+    {
+        id: 14,
+        imgURL: skate11,
+        name: "Baker Jason Green",
+        price: 50.20,
+        rating: 3.9,
+    },
+    {
+        id: 15,
+        imgURL: skate12,
+        name: "DGK Rocket Yellow",
+        price: 200.20,
+        rating: 2.1,
+    },
+    {
+        id: 16,
+        imgURL: skate13,
+        name: "DGK BubbleGum Green",
+        price: 200.20,
+        rating: 4.6,
+    },
+    {
+        id: 17,
+        imgURL: skate14,
+        name: "DGK Modern Grafitti Blue",
+        price: 200.20,
+        rating: 1.2,
+    },
+    {
+        id: 18,
+        imgURL: skate15,
+        name: "Element Anime Red",
+        price: 200.20,
+        rating: 3.0,
+    },
+    {
+        id: 19,
+        imgURL: skate16,
+        name: "Element Bruce Lee Blue",
+        price: 200.20,
+        rating: 1,
+    },
+    {
+        id: 20,
+        imgURL: skate17,
+        name: "DGK Candy White",
+        price: 200.20,
+        rating: 4.3,
+    },
+    {
+        id: 21,
+        imgURL: skate19,
+        name: "DGK M&M Yellow",
+        price: 200.20,
+        rating: 2.5,
+    },
 ];
 
 export const popularproducts = [
