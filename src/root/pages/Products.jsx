@@ -5,33 +5,14 @@ import Button from '../../components/Button.jsx'
 import{sort} from '../../assets/icons'
 import { useState, useEffect } from 'react'
 import { set } from 'react-hook-form'
+import { Link } from 'react-router-dom'
 
 const Products = () => {
 
   const [users, setUsers] = useState(products);
   const [sorted, setSorted] = useState({sorted: "id", reversed: false});
   const [searchTerm, setSearchTerm] = useState('');
-  const [filter, setFilter] = useState([]);
-  const filterarray =[];
-  const [checkedItems, setCheckedItems] = useState([]);
-
-  useEffect(() => {
-    // This effect will run whenever checkedItems changes
-    console.log('Checked Items:', checkedItems);
-    set
-    const usersCopy = [...users];
-   usersCopy.filter((user) => 
-     user.name.toLowerCase().includes(searchTerm.toLowerCase()))
-    
-  }, [checkedItems]);
-
-  const handleToggle = (val) => {
-    if (checkedItems.includes(val)) {
-      setCheckedItems(checkedItems.filter(item => item !== val));
-    } else {
-      setCheckedItems([...checkedItems, val]);
-    }
-  };
+ 
 
 
   
@@ -147,7 +128,7 @@ const Products = () => {
             Results {users.length}
           </h1>
 
-          <div className='md:hidden'>
+          <div className='md:hidden mr-6'>
           <Button 
           label="Filters"
           iconURL={sort}
@@ -155,27 +136,29 @@ const Products = () => {
           />
           </div>
 
-          <div className='max-md:hidden'>
-          <Button onClick={sortByPrice}
-          label="Price"
-          iconURL={sort}
-          bgColor={'bg-white'}
-          />
-          </div>
+          <div className='max-md:hidden mr-4'>
+              <Button onClick={sortByPrice}
+              label="Price"
+              iconURL={sort}
+              bgColor={'bg-white'}
+              />
+              </div>
 
-                    <div className='max-md:hidden'>
-                    <Button onClick={sortByRating}
-          label="Rating"
-          iconURL={sort}
-          bgColor={'bg-white'}
-          />
+                        <div className='max-md:hidden'>
+                        <Button onClick={sortByRating}
+              label="Rating"
+              iconURL={sort}
+              bgColor={'bg-white'}
+              />
 
                     </div>
 
           </div>
         <div className=' grid lg:grid-cols-3 xl:grid-cols-4 md:grid-cols-2  max-md:grid-cols-2 gap-x-10 gap-y-16 mt-2 max-mob:gap-4 '  >
           {users.map((users) => (
-           <ProductCard key={users.imgURL} {...users} />
+            <Link   to={`/products/${users.id}`} state={{ id: users.id }} >
+              <ProductCard key={users.imgURL} {...users} />
+              </Link>
           ))}
         </div> 
         </div>

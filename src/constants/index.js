@@ -26,9 +26,9 @@ import { customer1, customer2 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home", path: "/" },
-    { href: "#about-us", label: "About Us", path: "/about-us" },
+    { href: "#about-us", label: "About", path: "/about-us" },
     { href: "#products", label: "Products", path: "/products" },
-    { href: "#contact-us", label: "Contact Us", path: "/contact-us" },
+    { href: "#contact-us", label: "Contact", path: "/contact-us" },
 ];
 
 export const bannerImages = [

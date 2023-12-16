@@ -7,6 +7,7 @@ import { arrowRight } from '../assets/icons'
 import { Link } from 'react-router-dom'
 
 import {Routes, Route, useNavigate} from 'react-router-dom';
+import { useState } from 'react'
 
 
 
@@ -15,15 +16,18 @@ const Nav = () => {
 
 const navigate = useNavigate();
 
-const navigateTo= (page) => {
-  // 👇️ navigate to /contacts
-  navigate(page);
+
+const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+
+const toggleMenu = () => {
+  setIsMenuOpen(!isMenuOpen);
 };
 
 
   return (
-    <header className='absolute padding-x py-8 z-10 w-full xl:px-24'>
-      <nav className='flex justify-between items-center max-container'>
+    <header className='absolute padding-x py-8 z-30 w-full xl:px-24 '>
+      <nav className='lg:grid items-center  max-container lg:grid-cols-3 lg:justify-center flex  justify-between'>
         <a href='/'>
           <img 
             src={headerLogo}
@@ -34,7 +38,7 @@ const navigateTo= (page) => {
         </a>
         
        <div>
-       <ul className='flex-1 flex justify-center items-center gap-14 max-xl:hidden '>
+       <ul className='flex-1 flex justify-center items-center xl:gap-14 gap-6 max-lg:hidden '>
           {navLinks.map((item)=>(
             <li key={item.label}>
               <Link to={item.path}
@@ -47,14 +51,35 @@ const navigateTo= (page) => {
           )
           )}
         </ul>
+
+        
        </div>
-        <div className="max-xl:hidden flex flex-row gap-6">
-          <Link to='/sign-up'>
+
+       {isMenuOpen && (
+          <div className='absolute top-full left-0 w-full bg-white lg:hidden rounded-2xl  shadow-nav -mt-1 '>
+            <ul className='flex flex-col items-center'>
+              {navLinks.map((item) => (
+                <li key={item.label} className='w-full text-center'>
+                  <Link
+                    to={item.path}
+                    className='fonts-monsterrat leading-normal text-xl text-gray-900 hover:text-rose-600 block py-2'
+                    onClick={toggleMenu}
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        <div className="max-lg:hidden max-lg:invisible flex flex-row xl:gap-6 gap-4  place-self-end">
+          <Link to='/sign-in'>
         <Button 
        
-          label="Log In / Sign Up" 
+          label="Sign In" 
           iconURL= {null}
-            directTo={'/sign-up'}
+            
             />   
 
           </Link>
@@ -73,16 +98,24 @@ const navigateTo= (page) => {
          </div>           
                 
       
-        <div className='hidden max-xl:block'>
-          <img
+        <div className='lg:hidden place-self-end'>
+          <button>          
+            <img
+             onClick={toggleMenu}
             src={hamburger}
             alt='"Hamburger'
             width={25}
             height={25} />
+          </button>
+
         </div>
+
+                  {/* Collapsible Mobile Links */}
 
 
       </nav>
+
+
     </header>
   )
 }

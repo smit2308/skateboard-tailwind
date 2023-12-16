@@ -1,6 +1,7 @@
 import React from 'react'
 import ProductCard from '../components/ProductCard'
-import {popularproducts} from '../constants'
+import {products, popularproducts} from '../constants'
+import { Link } from 'react-router-dom'
 
 const PopularProducts = () => {
   return (
@@ -16,9 +17,11 @@ const PopularProducts = () => {
       </div>
 
       <div className=' grid lg:grid-cols-4 md:grid-cols-3  max-md:grid-cols-2 gap-4 mt-2 max-mob:gap-4 '  >
-        {popularproducts.map((productdata) => (
-          <ProductCard key={productdata.name} {...productdata} />
-        ))}
+            {products.filter(item => [8, 12, 16, 19].includes(item.id)).map((item) => (
+        <Link to={`/products/${item.id}`} state={{ id: item.id }} key={item.id}>
+            <ProductCard {...item} />
+        </Link>
+      ))}
       </div> 
 
 

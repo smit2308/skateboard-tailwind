@@ -3,7 +3,7 @@ import BannerCard from '../components/BannerCard'
 import momo from '../assets/images/banner/momo.svg'
 
 import {statistics} from '../constants'
-import { bannerImages } from '../constants'
+import { products } from '../constants'
 
 import Button from '../components/Button'
 import { arrowRight } from '../assets/icons'
@@ -61,11 +61,11 @@ const HomeBanner2 = () => {
         
           <a className=' z-30   hover:relative  hover:z-3 -mr-2'>
             
-          <BannerCard  skate={bannerImages[0]} />  </a>
+          <BannerCard  skate={products[0]} />  </a>
 
           <a className=' z-10 -ml-16 max-sm:-ml-12 hover:relative hover:left-6 hover:bottom-2 hover:z-2  hover:rotate-6 transition-all duration-[0.3s] ease-[ease-in-out]'
-            >   <BannerCard  skate={bannerImages[1]} /></a>
-          <a className=' z-0 -ml-16 max-sm:-ml-12 hover:rotate-6 hover:left-6 hover:bottom-2 transition-all duration-[0.3s] ease-[ease-in-out] '> <BannerCard className='z-1' skate={bannerImages[2]} /></a>
+            >   <BannerCard  skate={products[1]} /></a>
+          <a className=' z-0 -ml-16 max-sm:-ml-12 hover:rotate-6 hover:left-6 hover:bottom-2 transition-all duration-[0.3s] ease-[ease-in-out] '> <BannerCard className='z-1' skate={products[2]} /></a>
         
         </div>
        

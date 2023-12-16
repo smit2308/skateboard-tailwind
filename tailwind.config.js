@@ -28,14 +28,16 @@ export default {
       },
       colors: {
         'primary': "#ECEEFF",
-        "coral-red": "#FF6452",
+
         "slate-gray": "#6D6D6D",
-        "pale-blue": "#F5F6FF",
-        "white-400": "rgba(255, 255, 255, 0.80)"
+ 
       },
       boxShadow: {
-        '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
+        '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)',
+        "nav": '0 8px 8px 0px rgba(0, 0, 0, 0.2)',
+        
       },
+      
       backgroundImage: {
         'hero': "url('assets/images/collection-background.svg')",
         'card': "url('assets/images/thumbnail-background.svg')",
@@ -46,6 +48,8 @@ export default {
         "mob": "480px",
         
       },
+
+      
 
       animation: {
         'fade-in-down': 'fade-in-down 0.5s ease-out',

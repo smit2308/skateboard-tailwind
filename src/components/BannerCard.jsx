@@ -4,16 +4,10 @@ import { Link } from "react-router-dom"
 
 const BannerCard=({skate}) => {
     
-  const data = {
-    imgURL:skate.imgURL,
-    name:skate.name,
-    price:skate.price,
-    rating: skate.rating,
-  
-  }
+ 
   
     return(
-      <Link to={`/products/${data.name}`} state={{data}}> 
+      <Link to={`/products/${skate.id}`} state={{id: skate.id}}> 
       <div className='w-[200px] h-[400px] max-sm:w-[140px] max-sm:h-[300px] xl:w-60 xl:h-[500px]  overflow-hidden bg-neutral-100  transition-all duration-[0.1s] ease-[ease-in-out] shadow-lg
         p-4 rounded-[30px]  hover:shadow-2xl hover:scale-105  '>
 
