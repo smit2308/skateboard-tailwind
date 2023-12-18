@@ -23,8 +23,9 @@ const PopularProducts = () => {
         </Link>
       ))}
       </div> 
+      
 
-
+              
     </section>
   )
 }

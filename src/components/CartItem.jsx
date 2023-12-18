@@ -1,5 +1,5 @@
 import React from 'react';
-import { skate1 } from '../assets/images';
+import { skate1 } from '../assets/images/products';
 import { useState } from 'react';
 import { HiPlusCircle, HiMinusCircle } from "react-icons/hi";
 import { Link } from 'react-router-dom';

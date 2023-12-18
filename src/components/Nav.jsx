@@ -43,7 +43,7 @@ const toggleMenu = () => {
             <li key={item.label}>
               <Link to={item.path}
                 
-                className='fonts-monsterrat leading-normal text-xl  text-gray-900 hover:text-rose-600 '
+                className='font-monsterrat leading-normal text-xl  text-gray-900 hover:text-rose-600  '
                 >
                   {item.label}
                 </Link>
@@ -56,13 +56,13 @@ const toggleMenu = () => {
        </div>
 
        {isMenuOpen && (
-          <div className='absolute top-full left-0 w-full bg-white lg:hidden rounded-2xl  shadow-nav -mt-1 '>
-            <ul className='flex flex-col items-center'>
+          <div className='absolute top-full left-0 w-full bg-white lg:hidden rounded-2xl  shadow-nav -mt-1 pb-10 '>
+            <ul className='flex flex-col items-center gap-2'>
               {navLinks.map((item) => (
-                <li key={item.label} className='w-full text-center'>
+                <li key={item.label} className='w-full text-center '>
                   <Link
                     to={item.path}
-                    className='fonts-monsterrat leading-normal text-xl text-gray-900 hover:text-rose-600 block py-2'
+                    className=' font-monsterrat leading-normal text-xl  text-gray-900 hover:text-rose-600 my-2'
                     onClick={toggleMenu}
                   >
                     {item.label}

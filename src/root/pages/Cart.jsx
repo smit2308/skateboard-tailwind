@@ -1,6 +1,6 @@
 import React from 'react'
 import CartItem from '../../components/CartItem'
-import { skate1 } from '../../assets/images'
+import { skate1 } from '../../assets/images/products'
 const Cart = () => {
 
   const data = [

@@ -26,6 +26,7 @@ const Products = () => {
   };
 
   const sortByPrice = () => {
+    console.log("sort by price");
     setSorted({sorted: "price", reversed: !sorted.reversed});
     const usersCopy = [...users];
     usersCopy.sort((a, b) => {
@@ -38,7 +39,7 @@ const Products = () => {
 
     setUsers(usersCopy);
   }
-
+ 
   const sortByRating = () => {
     setSorted({sorted: "rating", reversed: !sorted.reversed});
     const usersCopy = [...users];
@@ -101,7 +102,7 @@ const Products = () => {
                   <div class="flex items-center gap-2">
                     <input type='checkbox' value={val}
                     className=' w-4 h-4 accent-rose-700  bg-gray-100 border-gray-300 rounded focus:ring-rose-700 focus:ring-2'
-                    onChange={() => handleToggle(val)} />
+                     />
                      <label className='text-left ms-2 text-lg text-gray-800 font-normal'>{val}</label>
                     </div>
                     
@@ -137,7 +138,8 @@ const Products = () => {
           </div>
 
           <div className='max-md:hidden mr-4'>
-              <Button onClick={sortByPrice}
+              <Button 
+              onClick={sortByPrice}
               label="Price"
               iconURL={sort}
               bgColor={'bg-white'}

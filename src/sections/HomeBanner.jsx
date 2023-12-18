@@ -7,6 +7,7 @@ import { products } from '../constants'
 
 import Button from '../components/Button'
 import { arrowRight } from '../assets/icons'
+import { Link } from 'react-router-dom'
 
 const HomeBanner2 = () => {
 
@@ -26,10 +27,11 @@ const HomeBanner2 = () => {
         </div>
 
         
+        <Link to='/products'>
         <Button
             label="Shop  Now"
             iconURL= {arrowRight}/>
-        
+        </Link>
         
           {/* <button
             className="w-96 h-16 max-sm:w-60 max-sm:h-12 items-center overflow-hidden flex transition-all duration-[0.2s] ease-[ease-in-out] shadow-[8px_8px_14px_4px_rgb(216,216,216)] 

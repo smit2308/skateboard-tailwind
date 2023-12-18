@@ -4,6 +4,7 @@ import { arrowRight } from '../assets/icons'
 import {statistics} from '../constants'
 import HeaderImage from '../assets/images/header_img.png' 
 import { tropical_bg } from '../assets/images'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -22,9 +23,11 @@ const Hero = () => {
           </h1>
           <p className=' leading-8 font-montserrat text-xl text-gray-500 mt-4 mb-10 sm:max-w-sm max-sm:text-center'>Discover the new RGB Halo Edition Boards by DGK</p>
 
-          <Button
-            label="Shop  Now"
-            iconURL= {arrowRight}/>
+          <Link to='/products'>
+            <Button
+              label="Shop  Now"
+              iconURL= {arrowRight}/>
+          </Link>
 
           <div className='flex justify-start items-start max-sm:justify-center flex-wrap w-full mt-20 mb-10 gap-16 '>
             {statistics.map((statistic) => (
@@ -41,10 +44,14 @@ const Hero = () => {
           alt='Board Collection'
 
           className='w-[160px] object-contain relative rotate-45 '/>
+
+          
         </div>
+        
 
         
       </section>
+      
   )
 }
 

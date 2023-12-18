@@ -26,7 +26,7 @@ const Button = ({onClick, label, iconURL, bgColor, textColor, borderColor, fullW
                 
                 {...buttonProps}
                 
-                onClick={buttonProps.onClick}>
+                onClick={onClick}>
         {label}
 
         {iconURL ? (  

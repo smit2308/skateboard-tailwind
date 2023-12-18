@@ -17,7 +17,7 @@ import {    arrowRight,
     GithubColored,
 } from "../assets/icons";
     
-import {skate1, skate2, skate3,   skate4, skate5, skate6, skate7, skate8 , skate9, skate10,  skate11, skate12, skate13, skate14, skate15, skate16, skate17, skate19  } from "../assets/images";
+import {skate1, skate2, skate3,   skate4, skate5, skate6, skate7, skate8 , skate9, skate10,  skate11, skate12, skate13, skate14, skate15, skate16, skate17, skate19  } from "../assets/images/products";
 
 import { monosvg, momo, pinkmono, monowheels } from "../assets/images";
 

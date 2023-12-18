@@ -18,7 +18,8 @@ const Subscribe = () => {
 
         <div className='flex max-sm justify-end items-center max-sm w-full max-sm:justify-center'>
           <Button label="Sign Up"
-          bgColor={'bg-white'}
+          bgColor={'bg-gray-900'}
+          textColor={'text-white'}
           iconURL={arrowRight}
           fullWidth/>
         </div>

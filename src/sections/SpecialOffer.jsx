@@ -8,6 +8,7 @@ import nobg_element5 from '../assets/images/banner/nobg_element5.png'
 import nobg_element6 from '../assets/images/banner/nobg_element6.png'
 import Button from '../components/Button'
 import { arrowRight } from '../assets/icons'
+import { Link } from 'react-router-dom'
 
 const SpecialOffer = () => {
   return (
@@ -42,7 +43,9 @@ const SpecialOffer = () => {
         <h1 className='font-montserrat text-right max-mob:text-center  leading-[50px] max-mob:leading-10 font-bold text-[44px] max-mob:text-[30px] mt-6 max-mob:mt-4 text-gray-900'>Get 15% OFF on All Boards!</h1>
         <p className='font-montserrat text-right max-mob:text-center  leading-[40px] font-medium text-[30px] max-mob:text-xl mt-6 text-gray-600 mb-10'>Limited time only</p>
 
-        <Button label='Shop Now'  iconURL= {arrowRight}/>
+        <Link to='/products'>
+          <Button label='Shop Now'  iconURL= {arrowRight}/>
+        </Link>
       </div>
       </div>
     

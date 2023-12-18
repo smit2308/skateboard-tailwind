@@ -27,6 +27,7 @@ const ProductCard  = ({id, imgURL, name, price, rating}) => {
         </div>
         <p className=' font-montserrat max-mob:text-sm max-sm:text-base text-lg  text-black max-mob:w-[140px] w-[220px] '>{name}</p>
         <p className=' font-montserrat max-mob:text-sm max-sm:text-base :text-lg  font-bold text-black'>${price}</p>
+        
     </section>
   ) 
 }
