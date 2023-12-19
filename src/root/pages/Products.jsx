@@ -6,6 +6,7 @@ import{sort} from '../../assets/icons'
 import { useState, useEffect } from 'react'
 import { set } from 'react-hook-form'
 import { Link } from 'react-router-dom'
+import { HiArrowNarrowUp } from "react-icons/hi";
 
 const Products = () => {
 
@@ -13,7 +14,14 @@ const Products = () => {
   const [sorted, setSorted] = useState({sorted: "id", reversed: false});
   const [searchTerm, setSearchTerm] = useState('');
  
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+    console.log("toggle menu");
+  };
+  
 
   
   // Function to filter products based on search term
@@ -109,9 +117,7 @@ const Products = () => {
                 ))}
 
                 </div>
-                
-                
-                
+                                   
                 </div>
               
             ))}
@@ -123,40 +129,90 @@ const Products = () => {
         </div>
         <div className='flex flex-col gap-10 '>
 
-          <div className=' flex flex-row gap-1 md:justify-end justify-between  items-center '>
+          {!isMenuOpen && (
+                      <div className=' flex flex-row gap-1 md:justify-end justify-between  items-center  '>
+          
+                      <h1 className='md:mr-auto text-xl font-montserrat  text-center pl-6' >
+                        Results {users.length}
+                      </h1>
+            
+                      <div className='md:hidden mr-6  flex flex-col'>
+                      <Button 
+                      label="Filters"
+                      iconURL={sort}
+                      bgColor={'bg-white'}
+                      onClick={toggleMenu}
+                      />
+                          
+                      </div>
+            
+                  
+                      <div className='max-md:hidden mr-4'>
+                          <Button 
+                          onClick={sortByPrice}
+                          label="Price"
+                          iconURL={sort}
+                          bgColor={'bg-white'}
+                          />
+                          </div>
+            
+                                    <div className='max-md:hidden'>
+                                    <Button onClick={sortByRating}
+                          label="Rating"
+                          iconURL={sort}
+                          bgColor={'bg-white'}
+                          />
+            
+                                </div>
+            
+                      </div>
+          )}
 
-          <h1 className='md:mr-auto text-xl font-montserrat  text-center pl-6' >
-            Results {users.length}
-          </h1>
 
-          <div className='md:hidden mr-6'>
-          <Button 
-          label="Filters"
-          iconURL={sort}
-          bgColor={'bg-white'}
-          />
-          </div>
+          {isMenuOpen && (
+            <div className='md:hidden flex flex-col bg-white lg:hidden rounded-2xl  shadow-xl  p-10 max-mob:p-6 gap-4 justify-center items-center'>
+          <div className='grid grid-cols-2  w-full  justify-center '>
+                        {filterOptions.map((option) => (
+              <div>
+                <h1 className='text-xl max-sm:text-lg  font-montserrat font-semibold  text-gray-800 mb-2'>
+                  {option.label}
+                </h1>
 
-          <div className='max-md:hidden mr-4'>
-              <Button 
-              onClick={sortByPrice}
-              label="Price"
-              iconURL={sort}
-              bgColor={'bg-white'}
-              />
-              </div>
+                <div className='flex flex-col gap-2 '>
+                {option.values.map((val) => (
 
-                        <div className='max-md:hidden'>
-                        <Button onClick={sortByRating}
-              label="Rating"
-              iconURL={sort}
-              bgColor={'bg-white'}
-              />
-
+                  <div class="flex items-center gap-2 ">
+                    <input type='checkbox' value={val}
+                    className=' w-4 h-4 accent-rose-700  bg-gray-100 border-gray-300 rounded focus:ring-rose-700 focus:ring-2'
+                     />
+                     <label className='text-left ms-2 text-lg max-sm:text-sm text-gray-800 font-normal'>{val}</label>
                     </div>
+                    
+                ))}
+
+                </div>
+                                   
+                </div>
+              
+            ))}
 
           </div>
-        <div className=' grid lg:grid-cols-3 xl:grid-cols-4 md:grid-cols-2  max-md:grid-cols-2 gap-x-10 gap-y-16 mt-2 max-mob:gap-4 '  >
+
+          
+          <button className='flex flex-row gap-0 w-fit  py-2 px-4  shadow-xl rounded-xl '
+          
+          onClick={toggleMenu}>
+            <HiArrowNarrowUp size={24}/>
+            <h1 className='text-xl font-montserrat  text-center' >
+              Hide
+              </h1>
+                  
+            </button>
+            
+            </div>
+        )}
+
+        <div className=' grid lg:grid-cols-3 xl:grid-cols-4  md:grid-cols-2  max-md:grid-cols-2 gap-x-10 gap-y-16 mt-2 max-mob:gap-4 '  >
           {users.map((users) => (
             <Link   to={`/products/${users.id}`} state={{ id: users.id }} >
               <ProductCard key={users.imgURL} {...users} />
