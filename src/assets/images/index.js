@@ -1,7 +1,8 @@
 
 
-import customer1 from './customer1.jpeg'
-import customer2 from './customer2.svg'
+import customer1 from './customer1.jpg'
+import customer2 from './customer2.jpg'
+import customer3 from './customer3.jpg'
 
 import headerLogo from './header-logo.svg'
 import monosvg from './banner/Mono_svg.svg'
@@ -26,6 +27,7 @@ export {
     about_us_skate,
     customer1,
     customer2,
+    customer3,
     SmitPicture,
     SmitPicture2,
     // footerLogo,

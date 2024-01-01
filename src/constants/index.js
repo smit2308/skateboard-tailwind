@@ -21,7 +21,7 @@ import {skate1, skate2, skate3,   skate4, skate5, skate6, skate7, skate8 , skate
 
 import { monosvg, momo, pinkmono, monowheels } from "../assets/images";
 
-import { customer1, customer2 } from "../assets/images";
+import { customer1, customer2, customer3 } from "../assets/images";
 
 
 export const navLinks = [
@@ -259,21 +259,21 @@ export const services = [
 
 export const reviews = [
     {
-        imgURL: customer1,
-        customerName: 'Morich Brown',
+        imgURL: customer2,
+        customerName: 'Shreya Pabalkar',
         rating: 4.5,
         feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
     },
     {
-        imgURL: customer2,
-        customerName: 'Lota Mongeskar',
+        imgURL: customer1,
+        customerName: 'Shantanu Lohar',
         rating: 4.5,
         feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
     },
 
     {
-        imgURL: customer2,
-        customerName: 'Lota Mongeskar',
+        imgURL: customer3,
+        customerName: 'Smit Shewale',
         rating: 4.5,
         feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
     },
@@ -296,12 +296,11 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Holy Spirit", link: 8 },
+            { name: "DGK Kisma Pink", link: 7 },
+            { name: "DGK Rocket Yellow", link: 15 },
+            { name: "Element Anime Red", link: 18 },
+
         ],
     },
     {

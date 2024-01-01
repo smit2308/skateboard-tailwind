@@ -37,7 +37,7 @@ const Footer = () => {
           <div className='flex flex-col '>
             <h4 className='text-white font-palanquin font-semibold text-[40px] mb-10 text-center'>{footer.title}</h4>
             {footer.links.map((fl) => (
-              <a href={fl.link} className='text-gray-200 font-palanquin text-lg leading-10 text-center'>{fl.name}</a>
+              <a href={`/products/${fl.link}`} className='text-gray-200 font-palanquin text-lg leading-10 text-center'>{fl.name}</a>
             ))}
           </div>
         )
